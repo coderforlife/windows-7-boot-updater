@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63E1BE29-75FE-4A61-BA42-D7515D782741}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Win7BootUpdater.Installer</RootNamespace>
+    <AssemblyName>Win7BootUpdater.Installer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>..\Resources\installer\example.res</Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder.cs" />
+    <Compile Include="CommonInstallerPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormattedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstallerPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Error.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Install.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\License.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\ReadyToInstall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Successful.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\UninstallCurrent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\UninstallError.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Uninstall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\UninstallQuestion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\UninstallSuccessful.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="Pages\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="..\Resources\Win7BootUpdater.Installer.resx">
+      <LogicalName>Win7BootUpdater.Installer.resources</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Win7BootUpdater\Win7BootUpdater.vcxproj">
+      <Project>{0768CE98-D404-44B2-A9CE-E757BEA580D6}</Project>
+      <Name>Win7BootUpdater</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

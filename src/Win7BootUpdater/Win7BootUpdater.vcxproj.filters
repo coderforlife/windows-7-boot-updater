@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Native Headers">
+      <UniqueIdentifier>{11e55463-c8bf-4c33-ba7f-bb3e0e654e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native">
+      <UniqueIdentifier>{80ab9cf0-0d56-4b03-bc35-dbec40576527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mixed">
+      <UniqueIdentifier>{0d77cfb5-e07f-4f13-9ea0-aee4a4d4bc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{537d7238-23b9-4de1-a0c5-28836a1f02d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DONE">
+      <UniqueIdentifier>{aae1592d-231a-4bf4-8dd6-2f8695251ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DONE\Pure">
+      <UniqueIdentifier>{2b5d6b38-17fe-4232-a2df-77e93b0db06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DONE\Pure Headers">
+      <UniqueIdentifier>{3a32a424-ae55-446b-9e05-0ab9d9e91abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DONE\Mixed">
+      <UniqueIdentifier>{de9a97cb-cff4-4d1e-8c65-ec0f568d78f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DONE\Mixed Headers">
+      <UniqueIdentifier>{e8b44182-09df-4df0-9b8f-0612cc7272c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE">
+      <UniqueIdentifier>{8bfc2580-61fb-44b9-a4f2-34711e103656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Mixed Headers">
+      <UniqueIdentifier>{1a1a3e0b-6ef5-40ff-99f8-53f6a5271be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Native Headers">
+      <UniqueIdentifier>{a6c9cba9-4860-416e-8340-10d4076ba337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Mixed">
+      <UniqueIdentifier>{267a7299-f957-4aed-9d41-c02a50048eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\StdAfx">
+      <UniqueIdentifier>{ecb253b3-e586-47b0-b73d-1ef8a9f52266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Libraries">
+      <UniqueIdentifier>{5fe1acd3-4e84-45f5-aae8-3531283fda48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DONE\Native Headers">
+      <UniqueIdentifier>{cfe5b7e0-29c0-41be-845f-889688a3ce11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DONE\Native">
+      <UniqueIdentifier>{7c2ac9bc-2b13-4993-a071-bf242ad9ccaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Libraries\libpng">
+      <UniqueIdentifier>{6721dc74-aa2f-4de9-9e45-601d2952a2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSOLETE\Libraries\libpng\Headers">
+      <UniqueIdentifier>{315909c9-5f3e-46e6-bf5f-2f13cd24ddf5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx-pure.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx-native.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\deflate.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\png.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnglibconf.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngpriv.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngstruct.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\zlib.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\zutil.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngconf.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\zconf.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\crc32.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnginfo.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\trees.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngdebug.h">
+      <Filter>OBSOLETE\Libraries\libpng\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bmzip.h">
+      <Filter>Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BootSkin.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipartFile.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WMI.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Winresume.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Winload.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorCodes.h">
+      <Filter>DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="WinXXX.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Zip.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTable.h">
+      <Filter>DONE\Mixed Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BcdObject.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BcdConstants.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>OBSOLETE\Mixed Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI-native.h">
+      <Filter>OBSOLETE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx-mixed.h">
+      <Filter>OBSOLETE\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>OBSOLETE\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Bcd.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Patch.h">
+      <Filter>DONE\Mixed Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bootmgr.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bootres.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PngConverter.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUpdater.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Updater.h">
+      <Filter>DONE\Pure Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSecurity.h">
+      <Filter>DONE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFileResources.h">
+      <Filter>DONE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bytes.h">
+      <Filter>DONE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFile.h">
+      <Filter>DONE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFiles.h">
+      <Filter>DONE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WIM.h">
+      <Filter>DONE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Files.h">
+      <Filter>DONE\Native Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdll.h">
+      <Filter>OBSOLETE\Libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WIM.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Bootmgr.cpp">
+      <Filter>Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Bootres.cpp">
+      <Filter>Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\adler32.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\compress.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\crc32.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\deflate.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\png.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngerror.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngget.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngmem.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngset.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwio.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwrite.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwtran.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwutil.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\trees.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\zutil.c">
+      <Filter>OBSOLETE\Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="bmzip.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipartFile.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="WMI.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="Winresume.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="Winload.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="Zip.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTable.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="BootSkin.cpp">
+      <Filter>DONE\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="UI-native.cpp">
+      <Filter>OBSOLETE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="AllPublic.cpp">
+      <Filter>OBSOLETE</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx-mixed.cpp">
+      <Filter>OBSOLETE\StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx-native.cpp">
+      <Filter>OBSOLETE\StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>OBSOLETE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="trace.cpp">
+      <Filter>OBSOLETE\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Bcd.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSecurity.cpp">
+      <Filter>DONE\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Patch.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFileResources.cpp">
+      <Filter>DONE\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Bytes.cpp">
+      <Filter>DONE\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFile.cpp">
+      <Filter>DONE\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFiles.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Updater.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="WinXXX.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUpdater.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Files.cpp">
+      <Filter>DONE\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="PngConverter.cpp">
+      <Filter>DONE\Mixed</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Resources\winresume.xml">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Resources\winload.xml">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Resources\bs7.xsd">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Resources\bootmgr.xml">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Resources\Win7BootUpdater.resx">
+      <Filter>Resources</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dll.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

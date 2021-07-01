@@ -1,0 +1,239 @@
+﻿
+
+Failed to create a backup of {0}
+The {0} file could not be read as a PE file
+The {0} file does not contain the proper resources ({1})
+The file is not {0} according to its version information
+The file looks like {0} not {1}
+Failed to update the WIM resource within bootres
+Failed to update the resources within {0}
+Failed to remove the digital certificate from {0}
+Failed to save the updated {0}
+Failed to deactivate the filesystem security on {0}
+Failed to restore the filesystem security on {0}
+Failed to update the message table text in {0}
+Failed to save the animation
+Failed to capture the WIM
+Failed to read the WIM
+Failed to update {0} in {1}
+Failed to update the boot font in {0}, this is likely due to it being a modified file or a recent Windows Update changed something
+Failed to update the copyright text in {0}, this is likely due to it being a modified file or a recent Windows Update changed something
+Failed to update text and background properties in {0}, this is likely due to it being a modified file or a recent Windows Update changed something
+Failed to disable bootres / winload security in {0}, this is likely due to it being a modified file or a recent Windows Update changed something
+Failed to disable bootmgr.exe security, this is likely due to it being a modified file or a recent Windows Update changed something
+Failed to re-compress bootmgr.exe
+Failed to create a temporary file
+Failed to create a temporary directory
+Failed to delete a temporary file
+There was an uncaught exception while updating the files
+Unknown error ({0:X})
+CreateFile failed ({0:X})
+Error While Getting {0} Path
+Unable to load the BCD store
+The {0} path in the BCD is either invalid or is a not yet supported type
+The {0} path in the BCD is invalid
+The {0} path in the BCD references an EFI file which is currently not supported
+The boot skin is not an understood version
+The animation source cannot be 'winload' for winload
+The file could not be opened for writing: '{0}'
+The file could not be validated: '{0}'
+The file could not be read: '{0}'
+Error loading boot skin: '{0}'
+Failed to get boot skin data
+Installer
+Loading Patch Failed
+The patch version is newer than this program can understand
+Patch out of date
+Could not open the file '{0}' as an image file, acceptable formats are BMP, PNG, GIF, JPEG, and TIFF
+The directory '{0}' could not be opened
+The directory '{0}' does not contain any acceptable image files (BMP, PNG, GIF, JPG, or TIF)
+It must be a full activity.bmp or 105 frames in PNG, BMP, GIF, or TIF
+Opening Animation Error
+Updating {0}…
+Finishing up…
+Compressing animation…
+Modifying resources…
+No Error
+Windows 7 Boot Updater
+Y
+y
+N
+n
+ERROR
+Failed to enable the take ownership privilege
+Critical Error
+Load Error
+Save Error
+Unrecognized option: {0}
+Error with {0}
+There was a problem verifying '{0}'
+Select a different file
+Go to 'Options' and select an appropriate {0}
+Wrong number of arguments
+Could not find the given BS7 file: '{0}'
+The BS7 file provided '{0}' is invalid:
+There was an uncaught exception while updating the files:
+There was a problem updating the files:
+Boot Update Exception
+Boot Update Error
+Do you wish to save the current settings before loading a different boot skin?
+Save Modifications
+There was a problem creating the installer:
+Create Installer Error
+Unknown MCI error
+Failed to open link
+Coming Soon!
+The following files were found:\n{0}
+No acceptable files were found
+Select Windows Folder
+Restored '{0}' to '{1}'
+No files were restored
+File Restoration
+Successfully updated the boot animation and text!
+Boot Update Success!
+About
+Upload Boot Skin
+Version Check
+You are running the latest version of Windows 7 Boot Updater.
+You are not running the latest version of Windows 7 Boot Updater. The latest version is {0}.
+Select Back&ground Image
+Select the folder that contains the animation.
+Animation Information
+Close
+Image Files
+All files
+Boot Skin for Windows 7
+{0} folder, {1}
+{0} file, default: {1}
+on hidden system partition
+Command Line Version
+Usage
+options
+or to restore backup files:
+Where the options are:
+sets as many of the options below as possible
+You can use the GUI program to create BS7 files
+Version {0}
+by Jeff Bush
+Visit coderforlife.com/projects/win7boot/ for more information
+See coderforlife.com/projects/win7boot/eula/ for licensing of this product
+[b]Problems? Bugs? Comments?[/b] Email me at [jeff@coderforlife.com]
+My homepage: [{0} coderforlife.com]
+Windows 7 Boot Page: [{0} coderforlife.com/projects/win7boot]
+[b]Like this program?[/b] [{0} Donate!]
+[b]Thanks to:[/b]
+joakim and marcusj0015 at [http://www.sevenforums.com/ sevenforums.com] for all of their input
+[http://www.libpng.org/pub/png/libpng.html lingpng] and [http://www.zlib.net/ zlib] for a reference PNG library
+Mattahan at [http://mattahan.deviantart.com/ mattahan.deviantart.com] for the monitor/painting logo
+And all the people who tested the program and gave wonderful feedback!
+Translations
+{0} translated by {1}
+Versions
+{0} Database:
+License
+{0}: {1}…
+&File
+&Load boot skin…
+Load boot skin from system files
+&Save boot skin as…
+&Create boot skin installer…
+&Upload boot skin…
+&Browse public boot skins…
+E&xit
+&Options
+Select 'Windows' folder…
+&Restore backups
+Language
+Contribute a translation…
+&Help
+About…
+Check for updates…
+&Windows 7 Boot Updater webpage…
+Donate…
+Booting
+Resuming
+Animation
+Same
+Default
+Static Image
+Animation
+Back&ground:
+Method:
+Simple
+Complete
+&Messages
+&Count:
+None
+1 Message
+2 Messages
+Message {0}
+Text:
+Font Color:
+Position:
+Font Size:
+Background
+&Apply
+Straight
+Loop
+&Fullscreen
+&Pause
+&Play
+Frame
+[Embedded]
+[None Selected]
+ESC
+Space
+Left/Right
+Home/End
+Exit Fullscreen
+Play/Pause
+Back/Forward 1 Frame
+First/Last Frame
+Create Installer
+Create a standalone installer with the designed boot skin.\nThe installer requires absolutely no outside libraries and works in 32-bit and 64-bit Windows 7.\nYou can add additional information to the installer. The skin name and author are required.
+Skin Name:
+Skin Author:
+URL:
+Description:
+License:
+Create
+You must provide a name and author for the skin
+Play Again
+Get a visual challenge
+Get an audio challenge
+Get a new challenge
+Windows 7 Boot Skin
+Windows 7 Boot Skin Installer
+Boot Skin Installer for Windows 7
+This can only be used in Windows 7
+{0} by {1}
+Failed to restore {0}
+< &Back
+&Next >
+&Cancel
+I &Agree
+&Install
+License Agreement
+Please review the license terms before installing the boot skin
+Uninstall Current
+Ready to Install
+Installing
+Successfully Installed
+Failed to Install
+Ready to Uninstall
+Uninstalling
+Successfully Uninstalled
+Failed to Uninstall
+The Windows 7 Boot Updater terms:
+The terms for the {0} boot skin by {1}:
+If you accept the terms of the agreement(s), click 'I Agree' to continue.\nYou must accept the agreement(s) to install this Windows 7 Boot Skin.
+This installer was generated using [{0} Windows 7 Boot Updater] developed by [{1} Coder for Life].\n\nClick Next to continue.
+Another boot skin is already installed. It must be completely uninstalled before a new one can be installed.\n\nThe current boot skin is [b]{0}[/b] by [b]{1}[/b].\n\nClick Next to uninstall the current boot skin.
+Ready to install the Windows 7 boot skin [b]{0}[/b] by [b]{1}[/b].\n\nThe following files will be modified:\n\n{2}\n\nIf you wish to modify different files, you will need to use either the graphic or command line program. See [{3} coderforlife.com/projects/win7boot] for more information.
+Installing the boot skin [b]{0}[/b] by [b]{1}[/b].\n\nThis may take a few minutes.\n\nDo not close this program or your system may become unbootable.
+Successfully installed the Windows 7 Boot Skin [b]{0}[/b] by [b]{1}[/b].
+Failed to Install the Windows 7 Boot Skin [b]{0}[/b] by [b]{1}[/b].\n\n{2}
+Ready to uninstall the Windows 7 boot skin [b]{0}[/b] by [b]{1}[/b].\n\nIf you wish to continue, click Next.
+Uninstalling the boot skin [b]{0}[/b] by [b]{1}[/b].\n\nThis may take a few minutes.\n\nDo not close this program or your system may become unbootable.
+Successfully uninstalled the Windows 7 Boot Skin [b]{0}[/b] by [b]{1}[/b].\n\n{2}
+Failed to uninstall the Windows 7 Boot Skin [b]{0}[/b] by [b]{1}[/b].\n\n{2}\n\n{3}

@@ -1,0 +1,239 @@
+﻿
+Dương Minh Phúc 'phucac' of forum [wWw.WindowsVN.NET]
+Không thể tạo bản sao lưu của {0}
+Tệp tin {0} không thể được đọc như một tập tin PE
+Tệp tin {0} không chứa các tài nguyên thích hợp ({1})
+Tệp tin không đúng {0} theo phiên bản của nó
+
+Không thể cập nhật các nguồn tài nguyên WIM trong bootres
+Không thể cập nhật các tài nguyên bên trong {0}
+Không thể loại bỏ giấy chứng nhận kỹ thuật số từ {0}
+Không thể lưu các cập nhật {0}
+Không thể tắt tính bảo mật hệ thống tập tin trên {0}
+Không thể khôi phục lại hệ thống tập tin bảo mật trên {0}
+Không thể cập nhật các văn bản thông báo trong bảng {0}
+Không thể lưu các hình ảnh động
+Không thể nắm bắt được WIM
+Không thể đọc WIM
+Không thể cập nhật {0} trong {1}
+Không thể cập nhật các font khởi động trong {0}, điều này có thể là do nó đang được một tập tin sửa đổi hoặc gần đây Windows Update đã thay đổi một cái gì đó
+Không thể cập nhật quyền tác giả trong {0}, điều này có thể là do nó đang được một tập tin sửa đổi hoặc gần đây Windows Update đã thay đổi một cái gì đó
+Không thể cập nhật các văn bản và thuộc tính nền trong {0}, điều này có thể là do nó đang được một tập tin sửa đổi hoặc gần đây Windows Update đã thay đổi một cái gì đó
+Không thể vô hiệu hóa bảo mật bootres / winload trong {0}, điều này có thể là do nó đang được một tập tin sửa đổi hoặc gần đây Windows Update đã thay đổi một cái gì đó
+Không thể vô hiệu hóa bảo mật bootmgr.exe, điều này có thể là do nó đang được một tập tin sửa đổi hoặc gần đây Windows Update đã thay đổi một cái gì đó
+Không thể nén lại bootmgr.exe
+Không thể tạo một tập tin tạm thời
+Không thể tạo một thư mục tạm thời
+Không thể xóa tập tin tạm thời
+Có một ngoại lệ chưa cho phép trong khi cập nhật các tập tin
+Lỗi không xác định ({0:X})
+Tạo tập tin không thành công ({0:X})
+Lỗi khi nhận được đường dẫn {0}
+
+Các đường dẫn {0} trong BCD  không hợp lệ hoặc là chưa được hỗ trợ
+Các đường dẫn {0} trong BCD không hợp lệ
+Các đường dẫn {0} trong BCD liên quan đến một tệp tin EFI mà hiện tại không được hỗ trợ
+Boot skin không đúng phiên bản
+Nguồn Hình ảnh động không thể được 'winload' cho winload
+Tập tin '{0}' không thể được mở ra để ghi vào
+Tập tin '{0}' không thể xác nhận được
+Tệp tin '{0}' không thể đọc được
+Lỗi nạp boot skin '{0}'
+Không thể nhận được dữ liệu boot skin
+
+Không thể tải bản vá lỗi
+Các phiên bản vá lỗi mới hơn so với chương trình này có thể hiểu
+Bản vá bị lỗi thời
+Không thể mở tệp '{0}' như một tệp hình ảnh, định dạng được chấp nhận là BMP, PNG, GIF, JPEG, và TIFF
+Thư mục '{0}' không thể mở được
+Thư mục '{0}' không chứa bất kỳ tập tin hình ảnh nào có định dạng (BMP, PNG, GIF, JPG, hoặc TIF)
+Nó phải là một tệp activity.bmp đầy đủ hoặc 105 khung hình với định dạng PNG, BMP, GIF, hoặc TIF
+Lỗi mở Hình ảnh động
+Đang cập nhật {0}…
+Xong…
+Đang nén Hình ảnh động…
+Đang sửa đổi tài nguyên ...
+Không có lỗi
+
+
+
+
+
+LỖI
+Không thể bật 'Take ownership'
+Lỗi quan trọng
+Lỗi nạp 'Load'
+Lỗi lưu 'Save'
+Không nhận ra tùy chọn: {0}
+Lỗi với {0}
+Có vấn đề khi đang xác thực '{0}'
+Lựa chọn tệp tin khác
+Đi đến 'Tùy chọn' và chọn cho thích hợp {0}
+
+Không tìm thấy tập tin BS7 được: '{0}'
+Các tập tin BS7 đã cung cấp '{0}' là không hợp lệ:
+Có một ngoại lệ trong khi cập nhật các tập tin:
+Có vấn đề khi dang cập nhật các tệp tin:
+Không thừa nhận Boot Update
+Boot Update bị lỗi
+
+
+Có vấn đề khi tạo Installer:
+Tạo Installer bị lỗi
+Không biết lỗi MCI
+Không thể mở được liên kết
+Sắp có!
+
+
+
+Đã khôi phục '{0}' đến '{1}'
+Không có tập tin đã được phục hồi
+Tập tin phục hồi
+Đã cập nhật thành công Hình ảnh động 'boot animation' và thông điệp 'text' !
+Cập nhật Boot thành công!
+Giới thiệu
+Tải lên boot skin 'Upload'
+Kiểm tra Phiên bản
+Bạn đang dùng phiên bản cuối của Windows 7 Boot Updater.
+Phiên bản Windows 7 Boot Updater bạn đang dùng không phải là phiên bản cuối . Phiên bản cuối là {0}.
+Lựa chọn Hình nền
+Lựa chọn thư mục chứa Hình ảnh động
+Thông tin Hình ảnh động
+Đóng
+Tệp hình ảnh
+Tất cả các tệp
+Boot Skin cho Windows 7
+{0} thư mục, {1}
+{0} tệp, mặc định: {1}
+Trên hệ thống phân vùng ẩn
+Phiên bản Command Line 'Dòng lệnh'
+Cách sử dụng
+Tùy chọn
+hoặc để khôi phục tập tin sao lưu:
+Trường hợp các tùy chọn là:
+đặt càng nhiều các thùy chọn dưới đây càng tốt
+Bạn có thể sử dụng GUI program để tạo ra các tập tin BS7
+Phiên bản {0}
+bởi Jeff Bush
+Ghé thăm coderforlife.com/projects/win7boot/ để biết thêm thông tin
+Xem coderforlife.com/projects/win7boot/eula / cho việc cấp giấy phép của sản phẩm này
+[b]Những vấn đề? Lỗi? Những bình luận?[/b] Gửi email cho tôi tại [jeff@coderforlife.com]
+Trang chủ: [{0} coderforlife.com]
+Trang web Windows 7 Boot: [{0} coderforlife.com/projects/win7boot]
+[b]Yêu thích chường trình này?[/b] [{0} Ủng hộ!]
+[b]Cảm ơn đến:[/b]
+Joakim và marcusj0015 tại [http://www.sevenforums.com/ sevenforums.com] cho tất cả các đầu vào của họ
+
+Mattahan tại [http://mattahan.deviantart.com/ mattahan.deviantart.com] đã thiết kế Logo
+Và tất cả những người đã thử nghiệm chương trình đều cho ý kiến ​​phản hồi tuyệt vời!
+Bản dịch
+{0} được dịch bởi {1}
+Phiên bản
+{0} Cơ sở dữ liệu:
+Giấy phép
+
+Tập tin
+Nạp boot skin…
+
+Lưu boot skin như…
+Tạo Installer boot skin
+Tải lên boot skin…'Upload'
+Duyệt boot skins public…
+Thoát
+Tùy chọn
+
+Khôi phục bản sao lưu
+Ngôn ngữ
+Đóng góp bản dịch…
+Trợ giúp
+Giới thiệu…
+Kiểm tra cập nhật…
+Trang web Windows 7 Boot Updater…
+Ủng hộ…
+
+
+Hình động
+Giống nhau
+Mặc định
+Ảnh tĩnh
+Hình động
+Màu nền
+Cách thức:
+Đơn giản
+Hoàn chỉnh
+Những thông điệp
+Số thông điệp
+Bình thường
+1 Thông điệp
+2 Thông điệp
+Thông điệp {0}
+Chữ:
+Màu chữ:
+Vị trí:
+Cỡ chữ:
+Màu nền của thông điệp
+Áp dụng
+Chạy thẳng
+Vòng lặp
+Xem toàn màn hình
+Tạm dừng
+Chạy
+Khung hình
+
+
+
+
+
+
+Thoát chế độ xem toàn màn hình
+Chạy/Tạm dừng
+Quay lại/Chuyển tiếp 1 Khung hình
+Khung hình đầu tiên/cuối cùng
+Khởi tạo Installer
+Tạo một Installer độc lập với Boot Skin đã thiết kế.\nInstaller đòi hỏi tuyệt đối không có bên ngoài thư viện 'Libraries' và làm việc trên nền 32-bit và 64-bit Windows 7.\nBạn có thể thêm thông tin bổ sung cho Installer. Tên Skin và tác giả được yêu cầu.
+Tên Skin:
+Tác giả Skin:
+
+Mô tả:
+Giấy phép:
+Tạo
+Bạn phải cung cấp một tên và tác giả cho Skin
+Chạy lại
+
+
+
+
+
+Boot Skin Installer cho Windows 7
+Chỉ có thể sử dụng trong Windows 7
+{0} bởi {1}
+Không thể khôi phục {0}
+< &Quay lại
+Tiếp theo >
+Hủy
+Tôi &Đồng ý
+Cài đặt
+Giấy phép thỏa thuận
+Xin vui lòng xem lại các điều khoản cấp phép trước khi cài đặt da khởi động
+Gỡ cài đặt hiện tại
+Sẵn sàng để cài đặt
+Đang cài đặt
+Đã cài đặt xong
+Không thể cài đặt
+Sẵn sàng để gỡ cài đặt
+Đang gỡ cài đặt
+Đã gỡ cài đặt xong
+Không thể gỡ cài đặt
+Những điều khoản của Windows 7 Boot Updater:
+Các điều khoản cho các boot skin {0} bởi {1}:
+Nếu bạn chấp nhận các điều khoản của thỏa thuận (s), nhấp vào 'Tôi Đồng ý'để tiếp tục.\nBạn phải chấp nhận thỏa thuận (s) để cài đặt Windows 7 Boot Skin.
+Installer này được tạo ra bằng cách sử dụng [{0} Windows 7 Boot Updater] được phát triển bởi [{1} Coder for Life].\n\nNhấp Next để tiếp tục.
+o cài đặt Windows 7 Boot da.
+Sẵn sàng để cài đặt Windows 7 boot skin [b]{0}[/b] bởi [b]{1}[/b]\n\nCác tập tin sau đây sẽ được sửa đổi:\n\n{2}\n\nNếu bạn muốn sửa đổi các tập tin khác, bạn sẽ cần phải sử dụng một trong hai chương trình đồ họa 'Graphic' hoặc chương trình dòng lệnh 'Command Line'. Xem [{3} coderforlife.com/projects/win7boot] để biết thêm thông tin.
+Đang cài đặt boot skin [b]{0}[/b] bởi [b]{1}[/b]\n.\nĐiều này có thể mất một vài phút.\n\nBạn không được đóng chương trình hoặc hệ thống của bạn vì sẽ ảnh hưởng đến việc khởi động Windows.
+Cài đặt Windows 7 Boot Skin thành công [b]{0}[/b] bởi [b]{1}[/b].
+Không thể cài đặt Windows 7 Boot Skin [b]{0}[/b] bởi [b]{1}[/b].\n\n{2}
+Sẵn sàng để gỡ bỏ Windows 7 boot skin [b]{0}[/b] bởi [b]{1}[/b].\n\nNếu bạn muốn tiếp tục, nhấp 'Tiếp theo'.
+Đang gỡ bỏ boot skin [b]{0}[/b] by [b]{1}[/b].\n\nĐiều này có thể mất một vài phút.\n\nBạn không được đóng chương trình hoặc hệ thống của bạn vì sẽ ảnh hưởng đến việc khởi động Windows.
+Đã gỡ bỏ Windows 7 Boot Skin thành công [b]{0}[/b] bởi [b]{1}[/b].\n\n{2}
+Khổng thể gỡ bỏ Windows 7 Boot Skin [b]{0}[/b] bởi [b]{1}[/b].\n\n{2}\n\n{3}

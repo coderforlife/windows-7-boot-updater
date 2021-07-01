@@ -1,0 +1,70 @@
+<!--
+Windows 7 Boot Updater (github.com/coderforlife/windows-7-boot-updater)
+Copyright (C) 2021  Jeffrey Bush - Coder for Life
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<Patch version="0.1">
+  <Version name="7 RTM" value="6.1.7600.16385" />
+  <Version name="7 SP1" value="6.1.7601.16537" />
+  <Version name="7 SP1 + KB2949927" value="6.1.7601.17514" /><!-- seen on 64-bit -->
+  <Version name="7 SP1 + KB2949927 (2)" value="6.1.7601.18519" /><!-- seen on 32-bit -->
+  <Entry id="1">
+    <!-- Allow Modified Files -->
+	<!-- Both changes are in BlImgQueryCodeIntegrityBootOptions -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+		  <!--
+				.text:0042101B    mov     eax, [ebp+arg_0]
+				.text:0042101E    mov     cl, [ebp+var_1]
+				.text:00421021    mov     [eax], cl
+
+				.text:0042101B    mov     eax, [ebp+arg_0]
+				.text:0042101E    mov     cl, 1		+ nop
+				.text:00421021    mov     [eax], cl
+
+				*(BYTE*)a3 = v7; -> *(BYTE*)a3 = 1;
+		  -->
+          <Target>8B 45 08 8A 4D FF 88 08</Target>
+          <Value >8B 45 08 B1 01 90 88 08</Value>
+        </PatchDirect>
+      </Version>
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+		  <!--
+				.text:00421037    xor     al, al
+				.text:00421039    jmp     short loc_42103E
+				.text:0042103B    mov     al, [ebp+var_1]
+
+				.text:00421037    mov     al, 1
+				.text:00421039    jmp     short loc_42103E
+				.text:0042103B    mov     al, 1		+ nop
+
+				  *(_BYTE *)a4 = result = <...> ? v7 : 0;
+
+				->
+				  
+				  <...>; *(_BYTE *)a4 = result = 1;
+		  -->
+          <Target>32 C0 EB 03 8A 45 FF</Target>
+          <Value >B0 01 EB 03 B0 01 90</Value>
+		</PatchDirect>
+      </Version>
+    </Platform>
+  </Entry>
+</Patch>

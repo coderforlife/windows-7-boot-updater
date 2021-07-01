@@ -1,0 +1,239 @@
+﻿
+irfan YILDIRIM [www.irfanyildirim.tr.gg]
+Yedeği oluşturlamadı {0}
+Doysa {0} PE dosyası gibi okunamadı
+Dosya {0} doğru kaynak içermez ({1})
+Dosya {0} kendi versiyonuna göre ayarlanamaz
+Dosya gibi {0} görünmüyor {1}
+Bootres içinde WIM kaynak güncellenemedi
+Kaynaklar güncellenemedi {0}
+Dijital sertifika silenmedi{0}
+Güncelleme kaydedilemedi{0}
+Sistem dosya koruması kaldırılamadı {0}
+Sistem doya koruması yapılamadı {0}
+Tablo metni güncellenemedi {0}
+Animasyon kaydedilemedi
+WIM yakalama başarısız oldu
+WIM okuma başarısız oldu
+Güncellme {0} başarısız {1}
+
+
+
+
+
+bootmgr.exe tekrar sıkıştırlamadı
+temporary dosyası oluşturulamadı
+temporary yolu oluşturulamadı
+temporary dosyası silenemdi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alınan skin verisi hatalı
+Yükleme
+Yama yükleme hatası
+yama versiyonu güncel değil
+Güncel yama
+Dosay açılamaı '{0}'  BMP, PNG, GIF, JPEG, ve TIFF yok
+Dizin '{0}' açılmadı
+Dizin '{0}' kabul edilebilir dosya içermiyor (BMP, PNG, GIF, JPG, or TIF)
+Dosyalar ya 105 kare PNG, BMP, GIF, TIF ya da tam bir activity.bmp olmalı
+Animasyon açma hatası
+Güncelleniyor {0}…
+bitirliyor…
+animasyon skıştırlıyor…
+Modifiye başladı…
+Hata yok
+Windows 7 Boot Yükleyici
+E
+e
+H
+h
+hata
+Yetki alma hatası
+Kritik Hata
+Yükle Hatası
+Kadet Hatası
+Tanınmayanlar seçeniği: {0}
+Hata {0}
+Bir Problem var '{0}'
+Başak dosya seçiniz
+Seçenekler sekmesine gidiniz {0}
+Yanlış argüman numarası
+Bulunmadı BS7 dosaysı: '{0}'
+BS7 dosyası sağlandı '{0}' sağnamadı:
+Güncelleme yapılmama istisnası olan dosyalar var:
+Güncelleme hatası olan dosyalar var:
+Boot Güncellemesi İstisnası
+Boot Güncellemesi Hatası
+
+
+Yükleyici oluşturma hatası var:
+Yükleyici oluşturma hatası
+Bilinmeyen MCI hatası
+Link açılamadı
+Yakında!
+Dosya bulundu:\n{0}
+Kabul edilri dosya bulunamadı
+Windows klasörünü seç
+Onarıldı '{0}' dan'{1}'
+Hiçbir dosya onarılması
+Dosya onarılması
+Animasyon ve yazı Güncellemesi  başarılı!
+Boot Güncellemesi Başarılı!
+Hakkında
+Boot Skin Yükle
+Güncellem Bak
+Windows 7 Boot yükleyicininen son verisyonu kullanıyorsun.
+Windows 7 Boot yükleyicininen son verisyonu kullanmıyorsun.En son sürüm {0}.
+Arka&paln resmini seç
+Animasyon klasörünü seç. 
+Animasyon Bilgisi
+Kapat
+Resim Dosyaları
+Tüm dosyalar
+Windows 7 için Boot Skin  
+{0} klasör, {1}
+{0} dosya, standart: {1}
+Gizli sistem parçası üstünde
+Komut satırı sürümü
+Kullanım
+Seçenekler
+ya da onarılan yedekler:
+Seçenekler nerede:
+Mümkün olduğunca
+Bu BS7 dosyaları oluşturmak için GUI programı kullanabilirsiniz
+Versiyon {0}
+
+Daha fazlası içinziyarat et coderforlife.com/projects/win7boot/ 
+
+[b]Sorun? Hatalar? Yorumlar?[/b] Bana e-posta [jeff@coderforlife.com]
+Anasayfa: [{0} coderforlife.com]
+Windows 7 Boot Sayfası: [{0} coderforlife.com/projects/win7boot]
+[b]Programı beğendin mi?[/b] [{0} Bağış!]
+[b]Teşerkürler:[/b]
+
+
+
+Test eden herkes çok beğendi !
+Çeviriler
+{0} tarafında çevrildi {1}
+Versiyon
+{0} Veritabanı:
+Lisans
+
+&Dosya
+&Yükle boot skin…
+
+&Kaydet boot skin i…
+&Oluştur boot skin yükleyici…
+&İnternete Yükle boot skin…
+&Gözat anonim boot skinlere…
+Ç&ıkış
+&Seçeneklerr
+'Windows' klasörünü seç…
+&Yedekler onar
+Dil
+Bir çeviriye katkıda bulun
+&Yardım
+Hakkında…
+Güncellemelere bak…
+&Windows 7 Boot Updater websayfası…
+Bağış…
+Başalatılıyor
+Sürdürülüyor
+Animasyon
+Aynı
+Standart
+Sabit Resim
+Animasyon
+Arka&plan:
+Yöntem:
+Basit
+Tamamı
+&Mesaj
+&Sayma:
+Hiçbiri
+1 Mesaj
+2 Mesaj
+Mesaj {0}
+Yazı:
+Yazı rengi:
+Pozisyon:
+Yazı boyu:
+Arka plan
+&Uygula
+Düz
+Döngü
+&Tam Ekran
+&Duraklat
+&Oynat
+Kare
+[Gömülü]
+[Seçilmedi]
+
+Boşluk
+Sol/Sağ
+Baş/Son
+Tam ekrandan çıkış
+Oynat/Duraklat
+geri/ileri 1 kare
+ilk/son kare
+Yükleyici Oluştu
+Tasarlanmış skin e yükleyici oluşturma.\nBu yükleyici 32-bit and 64-bit Windows 7 içindir..\nBu yükleyiciye ek bilgiler ekelyebilirsiniz.Yazar adı gereklidir.
+Skin Adı:
+Skin Yazarı:
+
+Açıklama:
+Lisans:
+oluştur
+skin için bir yazar olması gerekir
+Tekrar oynat
+Yeni bir tane görünüm alın
+Yeni bir tane ses alın
+Yeni bir tane alın
+
+Windows 7 Boot Skin yükleyici
+
+Sadece Windows 7 için
+
+Onarılamadı{0}
+< &geri
+&ileri >
+&Kapat
+kabul &et
+&yükle
+Lisasn
+yüklemeden önce lisans koşullarını inceleyin
+Geçerli kaldırma
+yükleme hazır
+
+yükleme başarılı
+yükleme başarısız
+Kaldırma hazır
+Kaldırılıyor
+Kaldırılma başarılı
+Kaldırılamadı
+Windows 7 Boot yükleyici şartları:
+Win7 skin {0} çin şartları {1}:
+Kabul ediyorsanız, 'kabul et' e .\nWindows 7 Boot Skin yüklemek için kabul ete tıklaman gerekiyor.
+Bu yükleyici [{0} Windows 7 Boot yükleyici]  [{1} Coder for Life].\n\nDevam için ileriye basınız..
+Başka boot skin yüklü. Yeni yükleme yapmadan önce diğerini kaldırınız.\n\nGeçerli [b]{0}[/b] by [b]{1}[/b].\n\nboot skini  kaldırmak için tıklayınız.
+Windows 7 boot skin yüklemeye hazır [b]{0}[/b] by [b]{1}[/b].\n\nDosya modifiye edildi:\n\n{2}\n\nIf you wish to modify different files, you will need to use either the graphic or command line program. See [{3} coderforlife.com/projects/win7boot] for more information.
+Boot skin yükleniyor [b]{0}[/b] by [b]{1}[/b].\n\nBir kaç dakika sürer.\n\nSakın programı kapatmayın.
+Windows 7 Boot Skin yükleme başarılı[b]{0}[/b] by [b]{1}[/b].
+Windows 7 Boot Skin yükleme başarısız[b]{0}[/b] by [b]{1}[/b].\n\n{2}
+Windows 7 boot skin kaldırmaya başalanıyor[b]{0}[/b] by [b]{1}[/b].\n\nDevam etmek için ileriye basınız.
+Boot skin kaldırışıyor[b]{0}[/b] by [b]{1}[/b].\n\nBir kaç dakika sürer.\n\nSakın programı kapatmayın.
+Windows 7 Boot Skin başarılı olarak kaydedildi [b]{0}[/b] by [b]{1}[/b].\n\n{2}
+Windows 7 Boot Skin kaldırılamadı[b]{0}[/b] by [b]{1}[/b].\n\n{2}\n\n{3}

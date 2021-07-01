@@ -1,0 +1,151 @@
+﻿<!--
+Windows 7 Boot Updater (github.com/coderforlife/windows-7-boot-updater)
+Copyright (C) 2021  Jeffrey Bush - Coder for Life
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Basic Types -->
+  <xs:simpleType name="shortVersion">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-5]?[0-9]{1,4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])\.([0-5]?[0-9]{1,4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="platform">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="I386"/>
+      <xs:enumeration value="AMD64"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="version">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-5]?[0-9]{1,4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])\.([0-5]?[0-9]{1,4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])\.([0-5]?[0-9]{1,4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])\.([0-5]?[0-9]{1,4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="versionName">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".*[^\d.]+.*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="versionOrName">
+    <xs:union memberTypes="version versionName" />
+  </xs:simpleType>
+  <xs:simpleType name="section">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="8"/>
+      <xs:pattern value="[ !&quot;#$%&amp;&apos;()*+,\-./0-9:;&lt;=&gt;?@A-Z[\\\]^_`a-z{|}~]{1,8}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="bytes">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(\[?[0-9a-zA-Z]{2}\]? ?)+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="bytesWithWildcards">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(\[?[0-9a-zA-Z]{2}\]? ?)(\[?([0-9a-zA-Z]{2}|\?\?)\]? ?)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="bytesWithVAs">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="((\[|\{)?[0-9a-zA-Z]{2}(\]|\})? ?)+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="functionName">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="_*[_A-Za-z][_A-Za-z0-9]*(@[0-9]+)?"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Patch Types -->
+  <xs:complexType name="PatchDirect">
+    <xs:all>
+      <xs:element name="Section" type="section"/>
+      <xs:element name="Target" type="bytesWithWildcards"/>
+      <xs:element name="Value" type="bytes"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="PatchDwords">
+    <xs:all>
+      <xs:element name="Section" type="section"/>
+      <xs:element name="Target" type="bytesWithWildcards"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="PatchString">
+    <xs:all>
+      <xs:element name="Section" type="section"/>
+      <xs:element name="Target" type="bytesWithWildcards"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="PatchAddFunction">
+    <xs:all>
+      <xs:element name="Section" type="section"/>
+      <xs:element name="Target" type="bytesWithWildcards"/>
+      <xs:element name="Call" type="bytes"/>
+      <xs:element name="Function" type="bytesWithVAs"/>
+      <xs:element name="FuncNames" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Name" type="functionName" maxOccurs="65535"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+
+  <!-- Layout Definition -->
+  <xs:element name="Patch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Version" maxOccurs="65535">
+          <xs:complexType>
+            <xs:attribute name="name" use="required" type="versionName"/>
+            <xs:attribute name="value" use="required" type="version"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Entry" maxOccurs="65535">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Platform" maxOccurs="65535">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Version" maxOccurs="65535">
+                      <xs:complexType>
+                        <xs:choice>
+                          <xs:element name="PatchDirect" type="PatchDirect"/>
+                          <xs:element name="PatchDwords" type="PatchDwords"/>
+                          <xs:element name="PatchString" type="PatchString"/>
+                          <xs:element name="PatchAddFunction" type="PatchAddFunction"/>
+                        </xs:choice>
+                        <xs:attribute name="min" use="required" type="versionOrName"/>
+                        <xs:attribute name="max" use="optional" type="versionOrName"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="type" use="required" type="platform"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:unsignedShort"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" use="required" type="shortVersion"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

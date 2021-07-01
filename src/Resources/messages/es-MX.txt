@@ -1,0 +1,239 @@
+﻿
+Veto Rascón
+No se pudo crear una restauración de {0}
+El archivo {0} no puede ser cargado como un archivo PE
+El archivo {0} no contiene los recursos adecuados ({1})
+El archivo {0} no concuerda con la información de la versión
+El archivo parece {0} no {1}
+No se pudo actualizar los recursos WIM mediante bootres
+No se pudo actualizar los recursos mediante {0}
+No se pudo quitar el certificado digital de {0}
+No se pudo guardar la actualización de {0}
+No se pudo desactivar la seguridad del sistema de archivos en {0}
+No se pudo restaurar la seguridad del sistema de archivos en {0}
+No se pudo actualizar el texto de la tabla de mensajes en {0}
+No se pudo guardar la animación
+No se pudo capturar el archivo WIM
+No se pudo leer el archivo WIM
+No se pudo actualizar {0} en {1}
+No se pudo actualizar la boot font en {0}, esto puede deberse a que es un archivo ya modificado o a que una actualización de Windows ha realizado cambios
+No se pudo actualizar el texto de copyright en {0}, esto puede deberse a que es un archivo ya modificado o a que una actualización de Windows ha realizado cambios
+No se pudo actualizar el texto y las propiedades de la imagen de fondo en {0}, esto puede deberse a que es un archivo ya modificado o a que una actualización de Windows ha realizado cambios
+No se pudo deshabilitar la seguridad de bootres / winload en {0}, esto puede deberse a que es un archivo ya modificado o a que una actualización de Windows ha realizado cambios
+No se pudo deshabilitar la seguridad de bootmgr.exe, esto puede deberse a que es un archivo ya modificado o a que una actualización de Windows ha realizado cambios
+No se pudo volver a comprimir bootmgr.exe
+No se pudo crear un archivo temporal
+No se pudo crear un directorio temporal
+No se pudo borrar un archivo temporal
+Ha ocurrido una excepción imprevista durante la actualización de los archivos
+Error desconocido ({0:X})
+No se pudo crear un archivo ({0:X})
+Error mientras se obtenía la ruta de acceso {0}
+
+La ruta de acceso {0} en el CBD no es válida o no está soportada
+La ruta de acceso {0} en el CBD no es válida
+La ruta de acceso {0} en el CBD hace referencia a un archivo EFI que no está soportado
+No se reconoce la versión del skin de inicio
+La ruta de la animación no puede ser 'winload' para winload
+El archivo '{0}' no pudo ser abierto para escritura
+El archivo '{0}' no pudo ser validado
+El archivo '{0}' no se pudo leer
+Error al cargar el skin de inicio '{0}'
+No se pudo obtener los datos del skin de inicio
+Instalador
+No se pudo cargar el Patch
+El Patch ha sido diseñado para una versión mas reciente
+El Patch está obsoleto
+No se pudo abrir el archivo '{0}' como una imagen, los formatos aceptados son BMP, PNG, GIF, JPEG, y TIFF
+El directorio '{0}' no pudo ser abierto
+El directorio '{0}' no contiene formatos de imagen soportados (BMP, PNG, GIF, JPG, or TIFF)
+Debe ser un activity.bmp completo o 105 frames / cuadros en PNG, BMP, GIF, o TIFF
+No se pudo abrir la animación
+Actualizando {0}…
+Finalizando…
+Comprimiendo animación…
+Modificando recursos…
+No hubo errores
+Actualizador de Windows 7 Boot
+S
+s
+
+
+
+No se pudo habilitar los privilegios de propietario
+Error Crítico
+Error al cargar
+Error al guardar
+No se pudo reconocer la opción: {0}
+Error con {0}
+Hubo un problema verificando '{0}'
+Elija un archivo distinto
+Vaya a 'Opciones' y escoja un {0} apropiado
+Número incorrecto de argumentos
+No se pudo encontrar el archivo BS7 especificado: '{0}'
+El archivo BS7 proporcionado '{0}' no es válido:
+Hubo una excepción imprevista al actualizar los siguientes archivos:
+Hubo un problema al actualizar los siguientes archivos:
+Excepción de Boot Update
+Error de Boot Update
+
+
+Hubo un problema al crear el instalador:
+Error al crear instalador
+Error de ICM desconocido
+Error al abrir el link
+Proximamente!
+Los siguientes archivos fueron encontrados:\n{0}
+No se han encontrado archivos admitidos
+Seleccione la carpeta de Windows
+'{0}' fue restaurado a '{1}'
+No se restauraron archivos
+Restauración de archivos
+Se actualizó la animación de inicio y el texto satisfactoriamente!
+Actualización de Boot completo!
+Acerca de
+Cargar Skin de inicio
+Verificar versión
+Está utilizando la última versión disponible de Windows 7 Boot Updater.
+No está utilizando la última versión disponible de Windows 7 Boot Updater. La última versión disponible es {0}.
+Elija la imagen de &fondo
+Elija la carpeta que contiene la animación
+Información de la animación
+Cerrar
+Archivos de Imagen
+Todos los archivos
+Skin de inicio para Windows 7
+
+{0} archivo, predeterminado: {1}
+en partición oculta del sistema
+Versión de la Linea de Comandos
+Uso
+opciones
+o para restaurar archivos de copia de seguridad:
+Cuando las opciones son:
+
+Puede usar la IGU del programa para crear archivos BS7
+Versión {0}
+por Jeff Bush
+Visite coderforlife.com/projects/win7boot/ para mas información
+Vea coderforlife.com/projects/win7boot/eula/ para la licenciación de este producto
+[b]Problemas? Errores? Comentarios?[/b] Contácteme via e-mail [jeff@coderforlife.com]
+Mi página principal: [{0} coderforlife.com]
+Página de Windows 7 Boot: [{0} coderforlife.com/projects/win7boot]
+[b]Le ha gustado el programa?[/b] [{0} Haga una donación!]
+[b]Gracias a:[/b]
+joakim y marcusj0015 en [http://www.sevenforums.com/ sevenforums.com] por todas sus sugerencias
+
+Mattahan en [http://mattahan.deviantart.com/ mattahan.deviantart.com] por el monitor/logotipo
+Y a toda la gente que ha probado el programa y nos ha expresado sus comentarios maravillosos!
+Traducciones
+{0} traducido por {1}
+Versiones
+{0} Base de datos:
+Licencia
+
+&Archivo
+&Cargar skin de inicio…
+
+&Guardar skin de inicio como…
+Crear &instalador de skin de inicio…
+&Subir skin de inicio…
+&Buscar skins de inicio púbilcos…
+Sa&lir
+&Opciones
+Elija la carpeta de 'Windows'
+&Restaure una copia de seguridad
+Idioma
+Contribuya con una traducción
+A&yuda
+Acerca de…
+Buscar actualizaciones…
+Página web de &Windows 7 Boot Updater…
+Haga una donación…
+Iniciando
+Reanudando
+Animación
+El mismo
+Predeterminado
+Imagen fija
+Animación
+Fo&ndo:
+Método:
+Sencillo
+Completo
+&Mensajes
+Cuen&ta
+Ninguno
+1 Mensaje
+2 Mensajes
+Mensaje {0}
+Texto:
+Color del texto:
+Posición:
+Tamaño del texto:
+Fondo
+A&plicar
+Carga
+Ciclo
+&Ver a pantalla completa
+Pa&usa
+Previsuali&zar
+Frame / Cuadro
+[Incorporado]
+[Ninguno Seleccionado]
+
+Espacio
+Izquierda/Derecha
+Inicio/Fin
+Salir de pantalla completa
+Visualizar/Pausa
+Adelante/Atrás 1 Frame/Cuadro
+Primer/Último Frame/Cuadro
+Crear instalador
+Crear un instalador independiente con el skin de inicio diseñado.\nEl instalador no requiere de librerías y funciona en versiones de 32-bit y 64-bit de Windows 
+Nombre del Skin:
+Autor del Skin:
+
+Descripción:
+Licencia:
+Crear
+Debe proporcionar un nombre y un autor para el skin
+Visualizar de nuevo
+Obtener un reto visual
+Obtener un reto auditivo
+Obtener un nuevo reto
+
+Instalador de Windows 7 Boot Skin
+Instalador de Boot Skin para Windows 7
+Solo puede ser utilizado en Windows 7
+{0} por {1}
+No se pudo restaurar {0}
+< &Atrás
+&Siguiente >
+&Cancelar
+&De acuerdo
+&Instalar
+Acuerdo de licencia
+Por favor revise los términos de licencia antes de instalar el skin de inicio
+Desinstalar actual
+Listo para instalar
+Instalando
+Instalación terminada satisfactoriamente
+No se pudo instalar
+Listo para desinstalar
+Desinstalando
+Desinstalación terminada satisfactoriamente
+No se pudo desinstalar
+Términos de Windows 7 Boot Updater:
+Términos de {0} skin de inicio por {1}:
+Si acepta los términos del acuerdo de licencia, dé click en 'De acuerdo' para continuar.\nNecesita aceptar los términos del acuerdo de licencia para instalar Windows 7 Boot Skin.
+Este instalador ha sido creado usando [{0} Windows 7 Boot Updater] desarrollado por [{1} Coder for Life].\n\nDé click en Siguiente para continuar.
+Otro skin de inicio se encuentra instalado. Debe desinstalarse por completo antes de instalar uno nuevo.\n\nEl skin de inicio actual es [b]{0}[/b] por [b]{1}[/b].\n\nDé click en Siguiente para desinstalar el skin de inicio actual.
+Listo para instalar Windows 7 boot skin [b]{0}[/b] por [b]{1}[/b].\n\nLos siguientes archivos serán modificados:\n\n{2}\n\nSi quiere modificar otros archivos, necesitara usar la IGU o la Línea de Comandos. Vea [{3} coderforlife.com/projects/win7boot] para mas información.
+Instalando el skin de inicio [b]{0}[/b] por [b]{1}[/b].\n\nEsto durará unos cuantos minutos.\n\nNo cierre el programa ya que puede que el sistema quede inutilizable.
+Se ha instalado Windows 7 Boot Skin [b]{0}[/b] por [b]{1}[/b] satisfactoriamente.
+No se pudo instalar Windows 7 Boot Skin [b]{0}[/b] por [b]{1}[/b].\n\n{2}
+Listo para desinstalar Windows 7 boot skin [b]{0}[/b] por [b]{1}[/b].\n\nPara continuar dé click en Siguiente.
+Desinstalando el skin de inicio [b]{0}[/b] por [b]{1}[/b].\n\nEsto durará unos cuantos minutos.\n\nNo cierre el programa ya que puede que el sistema quede inutilizable.
+Se ha desinstalado Windows 7 Boot Skin [b]{0}[/b] por [b]{1}[/b] satisfactoriamente.\n\n{2}
+No se pudo desinstalar Windows 7 Boot Skin [b]{0}[/b] por [b]{1}[/b].\n\n{2}\n\n{3}

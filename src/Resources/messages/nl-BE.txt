@@ -1,0 +1,239 @@
+﻿
+Xavier DM
+Backup maken van {0} is mislukt
+Het {0} bestand kon niet als PE bestand gelezen worden
+Het {0} bestand bevat niet de correcte middelen ({1})
+Het bestand is niet {0} volgens de versie informatie
+Het bestand lijkt op {0} niet {1}
+Update van WIM middelen binnen bootres is mislukt
+Update van bronnen binnen {0} is mislukt
+Verwijderen digitaal certificaat van {0} is mislukt
+De geüpdate {0} is mislukt
+Deactiveren van de bestandsbeveiliging op {0} is mislukt
+Herstellen van de bestandsbeveiliging op {0} is mislukt
+Update van tekst berichttabel in {0} is mislukt
+Opslaan van animatie is mislukt
+Overnemen van WIM is mislukt
+Lezen van WIM is mislukt
+Update van {0} naar {1} is mislukt
+Update van boot lettertype in {0} is mislukt, dit is waarschijnlijk omdat het een gewijzigd bestand is of een recente Windows Update heefts iets gewijzigd
+Update van copyright tekst in {0} is mislukt, dit is waarschijnlijk omdat het een gewijzigd bestand is of een recente Windows Update heefts iets gewijzigd
+Update van tekst en achtergrond eigenschappen in {0} is mislukt, dit is waarschijnlijk omdat het een gewijzigd bestand is of een recente Windows Update heefts iets gewijzigd
+Uitschakelen van bootres / winload beveiliging in {0} is mislukt, dit is waarschijnlijk omdat het een gewijzigd bestand is of een recente Windows Update heefts iets gewijzigd
+Uitschakelen van boomgr.exe beveiliging is mislukt, dit is waarschijnlijk omdat het een gewijzigd bestand is of een recente Windows Update heefts iets gewijzigd
+Hercomprimeren van bootmgr.exe is mislukt
+Aanmaken van een tijdelijk bestand is mislukt
+Aanmaken van een tijdelijke locatie is mislukt
+Verwijderen van een tijdelijk bestand is mislukt
+Er was een ongekende uitzondering tijdens het updaten van bestanden
+Onbekende fout ({0:X})
+CreateFile is mislukt ({0:X})
+Fout tijdens het verkrijgen van {0} pad
+
+Het {0} pad in de BCD is onjuist of is nog geen ondersteund type
+Het {0} pad in de BCD is onjuist
+Het {0} pad in de BCD verwijst naar een EFI bestand wat momenteel nog niet ondersteund wordt
+De boot skin is geen gekende versie
+De bron van de animatie mag niet 'winload' zijn voor winload
+Het bestand '{0}' kon niet worden geopend voor schrijven
+Het bestand '{0}' kon niet worden gevalideerd
+Het bestand '{0}' kon niet worden gelezen
+Fout tijdens het laden van boot skin '{0}'
+Boot skin data verkrijgen is mislukt
+Installatiebestand
+Patch laden is mislukt
+De patch versie is nieuwer dan wat dit programma kan begrijpen
+Patch is verouderd
+Kon het bestand '{0}' niet openen als een afbeelding, aanvaarde formaten zijn BMP, PNG, GIF, JPEG en TIFF
+De locatie '{0}' kon niet worden geopend
+De locatie '{0}' bevat geen aanvaarde bestanden (BMP, PNG, GIF, JPG, of TIF)
+Het moet een volledige activity.bmp zijn of 105 frames in PNG, BMP, GIF, of TIF
+Fout bij het openen van animatie
+Updaten {0}...
+Afwerken…
+Animatie comprimeren…
+Bronnen wijzigen…
+Geen fout
+
+J
+j
+
+
+FOUT
+Overnemen van rechten is mislukt
+Kritische fout
+Fout bij laden
+Fout bij opslaan
+Onherkenbare fout: {0}
+Fout met {0}
+Er heeft zich een probleem voorgedaan tijdens het verifiëren van '{0}'
+Selecteer een ander bestand
+Ga naar 'Opties' en selecteer een passende {0}
+Verkeerd nummer van argumenten
+Kon het gegeven BS7 bestand '{0}' niet vinden
+Het geleverde BS7 bestand '{0}' is niet geldig:
+Er was een ongekende uitzondering tijdens het updaten van bestanden:
+Er heeft zich een probleem voorgedaan tijdens het updaten van volgende bestanden:
+Boot update uitzondering
+Boot update fout
+
+
+Er heeft zich een probleem voorgedaan tijdens het maken van de installer:
+Installer maken fout
+Onbekende MCI fout
+Link kon niet worden geopend
+Binnenkort beschikbaar!
+De volgende bestanden werden niet gevonden:\n{0}
+Geen acceptabele bestanden werden gevonden
+Selecteer Windows map
+'{0}' hersteld naar '{1}'
+Bestanden werden niet hersteld
+Bestandsherstelling
+Boot animatie en tekst succesvol geüpdate!
+Boot update succes!
+Over
+Boot skin uploaden
+Versie controleren
+U gebruikt de laatste nieuwe versie van Windows 7 boot updater.
+U gebruikt niet de laatste nieuwe versie van Windows 7 boot updater. De laatste nieuwe versie is {0}.
+Selecteer
+Selecteer de map die de animatie bevat
+Animatie informatie
+Sluiten
+Afbeeldingen
+Alle bestanden
+Boot Skin voor Windows 7
+{0} map, {1}
+{0} bestand, standaard: {1}
+op verborgen systeempartitie
+Commandoregel versie
+Verbruik
+opties
+of om backup bestanden te herstellen:
+Waarbij de mogelijkheden zijn:
+zet zo veel van de opties hieronder als mogelijk
+U kunt het GUI programma gebruiken om BS7 bestanden te maken
+Versie {0}
+door Jeff Bush
+Bezoek coderforlife.com/projects/win7boot/ voor meer informatie
+Zie coderforlife.com/projects/win7boot/eula/ voor licenties van dit product
+[b]Problemen? Fouten? Commentaar?[/b] mail naar [jeff@coderforlife.com]
+Mijn homepage: [{0} coderforlife.com]
+Windows 7 Boot Pagina: [{0} coderforlife.com/projects/win7boot]
+[b]Houd u van dit programma?[/b] [{0} Doneer!]
+[b]Met dank aan:[/b]
+joakim en marcusj0015 op [http://www.sevenforums.com/ sevenforums.com] voor al hun inbreng
+
+Mattahan op [http://mattahan.deviantart.com/ mattahan.deviantart.com] voor het scherm/tekenen logo
+En alle personen die het programma getest hebben en prachtige feedback gegeven hebben!
+Vertalingen
+{0} vertaald door {1}
+Versies
+
+Licentie
+
+&Bestand
+&Laad boot skin…
+
+&Sla boot skin op als…
+&Maak boot skin installer…
+
+&Zoek publieke boot skins…
+&Sluiten
+&Opties
+Selecteer 'Windows' folder…
+&Herstel backups
+Taal
+Vertaal…
+
+Over…
+Controleer op updates…
+&Windows 7 Boot Updater webpagina…
+Doneer…
+Opstarten
+Voortzetten
+Animatie
+Zelfde
+Standaard
+Statische afbeelding
+Animatie
+Achter&grond:
+Methode:
+Simpel
+Volledig
+&Berichten
+&Nummer:
+Geen
+1 Bericht
+2 Berichten
+Bericht {0}
+Tekst:
+Lettertype kleur:
+Positie:
+Lettertype Grootte:
+Achtergrond
+&Toepassen
+Recht
+Herhaling
+&Volledig scherm
+&Pauze
+&Speel
+Beeld
+[Ingebakken]
+[Niets Geselecteerd]
+
+Spatie
+Links/Rechts
+Thuis/Einde
+Sluit Volledig Scherm Af
+Start/Pauze
+Terug/Voorwaarts 1 Frame
+Eerste/Laatste Frame
+Maak Installer
+Maak een aparte installer met de ontworpen boot skin.\nDe installer vereist absoluut geen bibliotheken van buitenaf en werkt in 32-bit en 64-bit Windows 7.\nU kan bijkomende informatie toevoegen aan de installer. De skin naam en auteur zijn vereist.
+Skin Naam:
+Skin Auteur:
+
+Beschrijving:
+Licentie:
+Maak
+U moet een naam en auteur ingeven voor de skin
+Speel Opnieuw
+Krijg een visuele uitdaging
+Krijg een audio uitdaging
+Krijg een nieuwe uitdaging
+
+Windows 7 Boot Skin Installatiebestand
+Boot Skin Installer voor Windows 7
+Dit kan enkel gebruikt worden in Windows 7
+{0} bij {1}
+Kon {0} niet herstellen
+< &Terug
+&Volgende >
+&Anulleer
+&Ik Ga Akkoord
+
+Licentie Overeenkomst
+Gelieve de licentievoorwaarden te bekijken alvorens de boot skin te installeren
+Deïnstalleer Huidig
+Klaar om te installeren
+Installeren
+Succesvol Geïnstalleerd
+Installatie Mislukt
+Klaar om te Verwijderen
+Verwijderen
+Succesvol Verwijderd
+Verwijderen mislukt
+De Windows 7 Boot Updater voorwaarden:
+De voorwaarden voor de {0} boot skin door {1}:
+Indien u de gebruikersovereenkomst(en) accepteerd, klikt u op 'Ik ga akkoord' om verder te gaan.\nU moet de overeenkomst(en) accepteren om deze Windows 7 Boot Skin te installeren.
+Deze installer werd gegenereerd met [{0} Windows 7 Boot Updater] ontworpen door [{1} Coder for Life].\n\nKlik volgende om verder te gaan.
+Een andere boot skin is reeds geïnstalleerd. Deze moet volledig worden verwijderd alvorens een nieuwe te kunnen installeren.\n\nDe huidige boot skin is [b]{0}[/b] door [b]{1}[/b].\n\nKlik volgende om de huidige boot skin te verwijderen.
+Klaar om de Windows 7 boot skin te installeren [b]{0}[/b] door [b]{1}[/b].\n\nDe volgende bestanden zullen worden gewijzigd:\n\n{2}\n\nIndien u verschillende bestanden wenst te wijzigen, moet u ofwel de grafische interface of het commandolijn programma gebruiken. Zie [{3} coderforlife.com/projects/win7boot] voor meer informatie.
+Boot skin installeren [b]{0}[/b] door [b]{1}[/b].\n\nDit kan enkele minuten in beslag nemen.\n\nSluit dit programma niet of uw computer kan niet meer opstarten.
+Windows 7 Boot Skin [b]{0}[/b] by [b]{1}[/b] succesvol geïnstalleerd.
+De Windows 7 Boot Skin [b]{0}[/b] door [b]{1}[/b].\n\n{2} kon niet worden geïnstalleerd.
+De Windows 7 boot skin [b]{0}[/b] door [b]{1}[/b] is klaar om verwijderd te worden.\n\nOm verder te gaan, klik Volgende.
+Verwijderen van de boot skin [b]{0}[/b] door [b]{1}[/b].\n\nDit kan enkele minuten in beslag nemen.\n\nSluit dit programma niet of uw computer kan niet meer opstarten.
+De Windows 7 Boot Skin [b]{0}[/b] door [b]{1}[/b] werd succesvol verwijderd.\n\n{2}
+De Windows 7 Boot Skin [b]{0}[/b] door [b]{1}[/b] kon niet worden verwijderd.\n\n{2}\n\n{3}

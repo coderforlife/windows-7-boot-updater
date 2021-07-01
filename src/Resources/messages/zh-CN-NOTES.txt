@@ -1,0 +1,1 @@
+The contributer for zh-CN is Lucsiro Touka, however due to a current bug if that line is included in the file no other language can show the About screen.

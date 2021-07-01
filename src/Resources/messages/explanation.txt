@@ -1,0 +1,239 @@
+﻿Must be blank
+You name, alias, email, website, etc.	(can use BBCode-like syntax)
+Checking file error
+Checking file error
+Checking file error
+Checking file error
+Checking file error
+Applying bootres.dll changes error
+Applying winload.exe/winresume.exe(.mui) changes error
+Applying changes error
+Applying changes error
+Applying changes error
+Applying changes error
+Applying winload.exe/winresume.exe(.mui) changes error
+Applying bootres.dll changes error
+Applying bootres.dll changes error
+Applying bootres.dll changes error
+Applying winload.exe/winresume.exe(.mui) changes error
+Applying winload.exe/winresume.exe changes error	(currently not used)
+Applying winload.exe/winresume.exe changes error
+Applying winload.exe/winresume.exe changes error
+Applying winload.exe/winresume.exe changes error
+Applying bootmgr changes error
+Applying bootmgr changes error
+I/O error
+I/O error
+I/O error
+Fallback error message
+Fallback error message	(should never be seen)
+General error message	(should never be seen)
+BCD path lookup error
+BCD path lookup error
+BCD path lookup error
+BCD path lookup error
+BCD path lookup error
+Bootskin loading error
+Bootskin loading error	(should never be seen)
+Bootskin saving error
+Bootskin loading error
+Bootskin loading error
+Bootskin loading error
+Create installer error
+Create installer file dialog file type option and error title
+Patch loading error
+Patch loading error	(should never be seen)
+Patch loading error	(should never be seen)
+Static image loading error message
+Animation loading error
+Animation loading error
+Animation loading description
+Animation loading error
+Status message while applying
+Status message while applying
+Status message while applying
+Status message while applying
+Error message when there is no error	(should never be seen)
+Title of the program
+First letter of 'Yes'	(currently not used)
+First letter of 'yes'	(currently not used)
+First letter of 'No'	(currently not used)
+First letter of 'no'	(currently not used)
+Error message box title
+Startup error		(should never be seen)
+Startup error title	(should never be seen)
+Loading error title
+Saving error title
+Command line error
+Checking file error title
+Checking file error extra text
+Checking file error extra text
+Checking file error extra text
+Command line error
+Command line BS7 file error
+Command line BS7 file error
+Applying changes error extra text
+Applying changes error extra text
+Applying changes error title
+Applying changes error title
+Save modifications warning
+Save modifications warning title
+Installer creation error extra text
+Installer creation error title
+Error playing sound	(currently not used)
+Error opening link
+For future features	(currently not used)
+Select Windows Folder message
+Select Windows Folder message
+Select Windows Folder message title
+Restoration message
+Restoration message
+Restoration message title
+Applying changes message
+Applying changes message title
+About box title
+Upload Boot Skin box title
+Version check title
+Version check results
+Version check results
+Button text when in "Complete" mode
+Animation folder description
+Animation information button on folder dialog
+Close button in popup boxes
+File dialog file-type selection option
+File dialog file-type selection option
+File dialog file-type selection option
+Command line usage text	(keep it in the given order)
+Command line usage text	(keep it in the given order)
+Bootmgr special location
+Command line text
+Command line text
+Command line usage text
+Command line usage text
+Command line usage text
+Command line usage text
+Command line text
+Program version in About box
+Program author in About box
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+
+About box text		(can use BBCode-like syntax)
+About box text		(can use BBCode-like syntax)
+About box Translations tab title
+About box Translations tab text
+About box Versions tab title
+About box Versions tab text
+About box License tab title
+Options menu option	(probably leave this blank)
+Menu name
+File menu option
+File menu option
+File menu option
+File menu option
+File menu option
+File menu option
+File menu option
+Menu name
+Options menu option
+Options menu option
+Menu name
+Language menu option
+Menu name
+Help menu option
+Help menu option
+Help menu option
+Help menu option
+Tab name
+Tab name
+Group name
+Animation option	(on Resuming tab)
+Animation option	(on Booting tab)
+Animation option
+Animation option	(I didn't realize I duplicated this text...)
+Label text
+Label text
+Method option
+Method option
+Group name
+Label text
+Count option
+Count option
+Count option
+Tab name
+Label text
+Label text
+Label text
+Label text
+Group name
+Button text
+Label below preview
+Label below preview
+Button text
+Button text
+Button text
+Tooltip text for preview and used when in fullscreen
+Animation/Image path when contained within a BS7 file
+Image path when nothing is selected
+Keyboard key name used when in fullscreen
+Keyboard key name used when in fullscreen
+Keyboard key names used when in fullscreen
+Keyboard key names used when in fullscreen
+Text used when in fullscreen
+Text used when in fullscreen
+Text used when in fullscreen
+Text used when in fullscreen
+Create installer title
+Create installer description text
+Create installer label text
+Create installer label text
+Create installer label text
+Create installer label text
+Create installer label text
+Create installer button text
+Create installer error
+reCAPTCHA button text	(currently not used)
+reCAPTCHA text		(currently not used)
+reCAPTCHA text		(currently not used)
+reCAPTCHA text		(currently not used)
+Name used in "Programs and Features" control panel for installer version
+Installer title
+Installer text
+Installer error
+Installer description: {0} is bootskin name and {1} is the author
+Uninstaller error
+Installer button
+Installer button
+Installer button
+Installer button
+Installer button
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer subtitle
+Installer text
+Installer text
+Installer text
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)
+Installer text		(can use BBCode-like syntax)

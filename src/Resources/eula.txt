@@ -1,0 +1,38 @@
+END USER LICENSE AGREEMENT
+
+By installing or using the Windows 7 Boot Updater (the "Software") you indicate your agreement to the terms of this End User License Agreement (the "Agreement"). If you do not agree to the terms herein, you are not authorized to copy or use the Software.
+
+ATTENTION: USE OF THE SOFTWARE IS SUBJECT TO THE TERMS SET FORTH BELOW. USING THE SOFTWARE INDICATES YOUR ACCEPTANCE OF THESE TERMS. IF YOU DO NOT ACCEPT THESE TERMS YOU ARE NOT AUTHORIZED TO USE THIS SOFTWARE.
+
+
+1.    LICENSE GRANT
+You are granted a non-exclusive, royalty-free, worldwide right and license to use the executable version of the Software, where "use" in this Agreement means storing, loading, installing or executing the Software.  You may not modify the Software or disable any licensing or control features of the Software. You agree that you may not copy the written materials accompanying the Software.  You may copy the software for archival purposes so long as the copy is unmodified from the original distribution and the copy retains all of the original Software's proprietary notices. You may not rent or lease your rights to the Software or documentation. If you are an individual and this Agreement is for a single license, you may install the Software on multiple computers provided that not more than one of those computers is in use simultaneously and that those computers are solely for your own use. If the Software license you have is for a single user license then the Software may be installed on a computer that is for multiple users but it may not be installed on more than one computer regardless of whether those computers are operated simultaneously or not. If this Agreement is for a multi-user (site) license, the number of computers on which the Software is installed may not exceed the number of licenses purchased, regardless of whether the computer is used by multiple users or not. You may use this software in a networked environment on computers other than the computer on which the software is installed provided that you have purchased licenses for each computer that will use the software, regardless of whether those computers will use the software at the same time or not. 
+
+2.    COPIES AND ADAPTATIONS
+Copies and adaptations must be made in accordance with the GPLv3 open-source software license.
+
+3.    NO WARRANTIES
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THERE IS EXPRESSLY NO WARRANTY FOR THE SOFTWARE. THE SOFTWARE AND ANY RELATED DOCUMENTATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY PROPRIETARY RIGHTS. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE REMAINS WITH YOU.
+
+4.    NO LIABILITY FOR DAMAGES
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THERE IS EXPRESSLY NO COVERAGE FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFIT, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF OR RELATING TO THE USE OR INABILITY TO USE THIS SOFTWARE, EVEN THE SOFTWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+5.    INDEMNIFICATION
+This Software is intended for use with data, media, files, and content for which you have sufficient rights to, authority for, or ownership of. It is your responsibility to ascertain whether copyrights, patents, or other licenses are needed for the content that you use in conjunction with this Software. You agree to hold harmless, indemnify and defend the software and contributors against any loss, damage, fine, or expense including attorney's fees arising out of or related to any claim that you have used this Software in violation of applicable laws in your jurisdiction. It is your responsibility to abide by the laws of whichever jurisdiction you reside in.
+
+6.    TERMINATION
+This Agreement shall continue indefinitely.
+
+7.    EXPORT REQUIREMENTS
+You may not export or re-export the Software or any copy or adaptation in violation of any applicable laws or regulations.
+
+8.    U.S. GOVERNMENT RESTRICTED RIGHTS
+The Software and any accompanying documentation have been developed entirely at private expense. They are delivered and licensed as "commercial computer software." If this Software is acquired under the terms of a DOD or civilian agency contract, use, reproduction or disclosure of the Software by the Government is subject to the restrictions set forth in this License Agreement in accordance with 48 C.F.R. 227.7202 or 48 C.F.R. 12.212, respectively.
+
+---------------------------------------------------------------------------------------------------
+
+This software includes portions of the Ookii.Dialogs Library: Copyright (C) 2009 Sven Groot (Ookii.org), license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.

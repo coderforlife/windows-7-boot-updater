@@ -1,0 +1,239 @@
+﻿
+
+Kunde inte göra en säkerhetskopia av {0}
+Filen {0} kunde inte läsas som en PE fil
+Filen {0} innehåller inte rätt resurser ({1})
+Filen är inte {0} enligt dens version information
+Filen ser ut som {0} inte {1}
+Misslyckades att uppdatera WIM resurs i bootres
+Misslyckades att uppdatera resurser i {0}
+Misslyckades att ta bort det digitala certificatet från {0}
+Misslyckades att spara den uppdaterade {0}
+Misslyckades att deactivera filsystem säkerhet på {0}
+Misslyckades att återställa filsystem säkerhet på {0}
+Misslyckades att uppdatera meddelade tabellen i  {0}
+Misslyckades att spara animationen
+Misslyckades att fånga WIMen
+Misslyckades att läsa WIMen
+Misslyckades att uppdatera {0} i {1}
+Misslyckades att uppdatera boot fonten i {0}, detta är troligtvis på grund av en modifierad fil eller en att en Windows uppdatering ändrade något
+Misslyckades att uppdatera copyright texten i {0}, detta är troligtvis på grund av en modifierad fil eller en att en Windows uppdatering ändrade något
+Misslyckades att uppdatera text och bakground i {0}, detta är troligtvis på grund av en modifierad fil eller en att en Windows uppdatering ändrade något
+Misslyckades att slå av bootres / winload säkerhet i {0}, detta är troligtvis på grund av en modifierad fil eller en att en Windows uppdatering ändrade något
+Misslyckades att slå av bootmgr.exe säkerhet, detta är troligtvis på grund av en modifierad fil eller en att en Windows uppdatering ändrade något
+Misslyckades att rekomprimera bootmgr.exe
+Misslyckades att skapa en tillfällig fil
+Misslyckades att skapa en tillfällig mapp
+Misslyckades att ta bort en tillfällig fil
+Det uppstod ett ohanterat fel under fil uppdateringen
+Okänt fel ({0:X})
+CreateFile misslyckades ({0:X})
+Fel under hämtning av {0} Path
+
+{0} pathen i BCDen är antingen ogiltig eller en typ som inte stöds ännu
+{0} pathen i BCDen är ogiltig
+{0} pathen i BCDen refererar till en EFI fil som inte stöds just nu
+Boot skinnet är inte en förstådd version
+Animations källan kan inte vara 'winload' för winload
+Filen '{0}' kunde inte öppnas för skrivning
+Filen '{0}' kunde inte valideras
+Filen '{0}' kunde inte läsas
+Boot skin laddnings fel '{0}'
+Kunde inte ladda boot skin data
+Installerare
+Patch laddnings fel
+Patch versionen är nyare är det här programmet kan förstå
+Patchen är för gammal
+Kunde inte öppna filen '{0}' som en bild file, acceptabla format är BMP, PNG, GIF, JPEG, och TIFF
+Mappen '{0}' kunde inte öppnas
+Mappen '{0}' innehåller inga acceptabla bild filer (BMP, PNG, GIF, JPG, eller TIF)
+Det måste vara en full activity.bmp eller 105 bildrutor i PNG, BMP, GIF, eller TIF
+Öppnings animation fel
+Uppdaterar {0}…
+Gör färdigt…
+Komprimerar animationen…
+Modifierar resurser…
+Inget fel
+Windows 7 Boot Uppdaterare
+J
+j
+
+
+FEL
+Misslyckades att ta ägarskap rättighet
+KRITISKT FEL
+Laddnings Fel
+Sparnings Fel
+Oigenkänt alternativ: {0}
+Fel med {0}
+Det var ett problem med att verifiera '{0}'
+Välj en annan fil
+Gå till 'Alternativ' och välj en lämplig {0}
+Fel antal argument
+Kunde inte hitta den angivna BS7 filen: '{0}'
+Den angivna BS7 filen '{0}' är ogiltig:
+Det uppstod ett ohanterat fel:
+Det uppstod ett problem med uppdateringen:
+Boot uppdaterings fel
+Boot uppdaterings fel
+
+
+Det uppstod ett problem med att skapa installeraren:
+Installerare skapelse fel
+Okänt MCI fel
+Misslyckades att öppna länk
+Kommer snart!
+De följande filerna hittades:\n{0}
+Inga acceptabla file hittades
+Välj Windows mapp
+Återställde '{0}' till '{1}'
+Inga filer återställdes
+Fil återställning
+Lyckades uppdatera boot animation och text!
+Boot uppdatering lyckades!
+Om
+Uppladda Boot skin
+Version check
+Du använder den senaste versionen av Windows 7 Boot Updater.
+Du använder inte den senaste versionen av Windows 7 Boot Updater. Den senaste versionen är {0}.
+Välj bak&grunds bild
+Välj mappen som inehåller animationen.
+
+Stäng
+Bild Filer
+Alla filer
+Boot Skin för Windows 7
+{0} mapp, {1}
+{0} fil, standard: {1}
+på dold system partition
+Kommando linje version
+Användning
+Alternativ
+eller för att återställa säkerhetskopior:
+Där alternativen är:
+sätter så många av de alternativ nedan som möjligt
+Du kan använda GUI programet för att skapa BS7 filer
+
+av Jeff Bush
+Besök coderforlife.com/projects/win7boot/ för mer information
+Se coderforlife.com/projects/win7boot/eula/ för licensering
+[b]Problem? Buggar? Kommentarer?[/b] Emaila me på [jeff@coderforlife.com]
+Min hemsida: [{0} coderforlife.com]
+Windows 7 Boot sida: [{0} coderforlife.com/projects/win7boot]
+[b]Gillar du detta program?[/b] [{0} Donera!]
+[b]Tack till:[/b]
+joakim and marcusj0015 på [http://www.sevenforums.com/ sevenforums.com] för all deras input
+
+Mattahan på [http://mattahan.deviantart.com/ mattahan.deviantart.com] för monitor/painting logon
+Och alla som testade programmet och gav underbar feedback!
+Översättningar
+{0} översatt av {1}
+Versioner
+{0} Databas:
+Licens
+
+&Fil
+&Ladda boot skin…
+
+&Spara boot skin som…
+&Skapa boot skin installerare…
+&Ladda upp boot skin…
+&Kolla igenom offentliga boot skins…
+A&vsluta
+&Alternativ
+Välj 'Windows' mapp…
+&Återställ säkerhetskopia
+Språk
+Bidra med en översättning…
+&Hjälp
+Om…
+Kolla efter uppdateringar…
+&Windows 7 Boot Updater webbsida…
+Donera…
+Bootar
+Återupptar
+
+Samma
+Standard
+Still bild
+
+Bak&grund:
+Metod:
+Enkel
+Komplett
+&Meddelanden
+&Antal:
+Inget
+1 Meddelande
+2 Meddelande
+Meddelande {0}
+
+Font Färg:
+
+Font Storlek:
+Bakgrund
+&Använd
+Rak
+
+&Fullskärm
+&Pausa
+&Spela
+Bildruta
+
+
+
+
+Vänster/Höger
+Hem/Slut
+Avsluta Fullskärm
+Spela/Pausa
+Bakåt/Frammåt 1 Bildruta
+Första/Sista Bildrutan
+Skapa Installerare
+Skapa en fristående installerare med det designade boot skinnet.\nInstalleraren kräver absolut inga extrana biblotek och funkar med 32-bitars och 64-bitars Windows 7.\nDu kan lägga till ytligare information till installeraren. Skinnets namn och författare krävs.
+Skin Namn:
+Skin Författare:
+
+Beskrivning:
+
+Skapa
+Du måste ange ett namn och en författare för skinnet
+Spela igen
+Hämta en visuell utmaning
+Hämta en ljud utmaning
+Hämta en ny utmaning
+
+Windows 7 Boot Skin Installerare
+Boot Skin Installerare för Windows 7
+Detta kan bara användas i Windows 7
+{0} av {1}
+Misslyckades att återställa {0}
+< &Tillbaka
+&Nästa >
+&Avbryt
+Jag &Godkänner
+&Installera
+Licens avtal
+Var vänlig läs igenom Licens avtalet innan du installerar boot skin
+Avinstallera nuvarande
+Redo att installera
+Installerar
+Lyckades installera
+Misslyckades att Installera
+Redo att Avinstallera
+Avinstallerar
+Lyckades avinstallerar
+Misslyckades att avinstallera
+Windows 7 Boot Updater avtal:
+Villkor för {0} boot skin av {1}:
+Om du accepterar licens avtal(en), clicka 'Jag godkänner' för att fortsätta.\nDu måste acceptera licens avtal(en) för att installera detta Windows 7 Boot Skin.
+Denna installerare genererades med [{0} Windows 7 Boot Updater] utvecklad av [{1} Coder for Life].\n\nClicka nästa för att fortsätta.
+Ett annat boot skin är redan installerat. Det måste helt avinstalleras innan du kan installera detta.\n\nDet nuvarande boot skinnet är [b]{0}[/b] by [b]{1}[/b].\n\nKlicka nästa för att avinstallera det nuvarande boot skinnet.
+Redo att installera Windows 7 boot skinnet [b]{0}[/b] av [b]{1}[/b].\n\nDe förljande filerna kommer att modifieras:\n\n{2}\n\nOm du vill modifiera andra filer, behöver du det grfiska eller command line programet. See [{3} coderforlife.com/projects/win7boot] för mer information.
+Installerar boot skinnet [b]{0}[/b] av [b]{1}[/b].\n\nDetta kan det flera minuter.\n\nStäng inte detta program annars kan datorn bli obootbar.
+Lyckades installera Windows 7 Boot Skinnet [b]{0}[/b] av [b]{1}[/b].
+Misslyckades Installera Windows 7 Boot Skinnet [b]{0}[/b] av [b]{1}[/b].\n\n{2}
+Redo att avinstallera Windows 7 boot skinnet [b]{0}[/b] av [b]{1}[/b].\n\nOm du vill fortsätta, klicka nästa.
+Avinstallerar boot skinnet [b]{0}[/b] av [b]{1}[/b].\n\nDetta kan ta några minuter.\n\nStäng inte detta program annars kan datorn bli obootbar.
+Lyckades avinstallera Windows 7 Boot Skinnet [b]{0}[/b] av [b]{1}[/b].\n\n{2}
+Misslyckades att avinstallera Windows 7 Boot Skinnet [b]{0}[/b] av [b]{1}[/b].\n\n{2}\n\n{3}

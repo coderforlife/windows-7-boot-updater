@@ -1,0 +1,239 @@
+﻿
+AndiPrabowo
+Gagal membuat cadangan dari {0}
+File {0} tidak bisa dibaca sebagai PE
+File {0} tidak mengandung sumber data yang benar ({1})
+File tidak {0} menurut informasi versinya
+File tampak seperti {0} bukan {1}
+Gagal memperbarui WIM dalam bootres
+Gagal memperbarui sumber data dalam {0}
+Gagal menghapus sertifikat digital dari {0}
+Gagal menyimpan {0} termodifikasi
+Gagal menonaktifkan keamanan filesystem pada {0}
+Gagal mengembalikan keamanan filesystem pada {0} seperti semula
+Gagal memperbarui tabel pesan teks dalam {0}
+Gagal menyimpan animasi
+Gagal meng-capture WIM
+Gagal membaca WIM
+Gagal memperbarui {0} pada {1}
+Gagal memperbarui font boot pada {0}, mungkin karena file sudah dimodifikasi atau akibat Windows Update terakhir
+Gagal untuk memperbarui teks hak cipta dalam {0}, mungkin karena file sudah dimodifikasi atau akibat Windows Update terakhir
+Gagal memperbarui teks dan latar belakang {0}, mungkin karena file sudah dimodifikasi atau akibat Windows Update terakhir
+Gagal menonaktifkan keamanan bootres/winload pada {0}, mungkin karena file sudah dimodifikasi atau akibat Windows Update terakhir
+Gagal menonaktifkan keamanan Bootmgr.exe, mungkin karena file sudah dimodifikasi atau akibat Windows Update terakhir
+Gagal meng-kompresi kembali Bootmgr.exe
+Gagal membuat file sementara
+Gagal membuat direktori sementara
+Gagal menghapus file sementara
+Terdapat pengecualian saat mengupdate file
+Error tidak diketahui ({0:X})
+Gagal membuat file ({0:X})
+Error saat mencari {0} path
+
+{0} path di BCD tidak valid atau belum didukung
+{0} path di BCD tidak valid
+{0} path di BCD mereferensi pada file EFI yang belum didukung
+Boot skin merupakan versi tidak dikenali
+Sumber animasi tidak dapat digunakan untuk winload
+File '{0}' tidak dapat dibuka untuk ditulis
+File '{0}' tidak dapat divalidasi
+File '{0}' tidak dapat dibaca
+Error memuat boot skin '{0}'
+Gagal mendapatkan data boot skin
+Pemasang
+Gagal memuat Patch
+Versi Patch lebih baru dari yang dapat dimengerti program
+Versi Patch kadaluarsa
+Tidak dapat membuka file '{0}' sebagai file gambar, format diterima yaitu BMP, PNG, GIF, JPEG, and TIFF
+Direktori '{0}' tidak dapat dibuka
+Direktori '{0}' tidak berisi file dengan format diterima (BMP, PNG, GIF, JPG, or TIF)
+Harus merupakan activity.bmp penuh atau 105 frame dalam format PNG, BMP, GIF, or TIF
+Membuka animasi error
+Memperbarui {0}…
+Menyelesaikan…
+Meng-kompres animasi…
+Memodifikasi sumber data…
+Tidak terdapat Error
+
+
+
+T
+t
+
+Gagal mengaktifkan pengambilan hak milik
+Error kritis
+Error dalam memuat
+Error dalam menyimpan
+Opsi tidak diketahui: {0}
+Terdapat kesalahan pada {0}
+Terdapat masalah memverifikasi '{0}'
+Pilih file berbeda
+Pergi ke 'Opsi' dan pilih yang sesuai {0}
+Jumlah salah untuk argumen
+Tidak dapat menemukan file BS7: '{0}'
+File BS7 '{0}' tidak valid:
+Terdapat pengecualian saat mengupdate file:
+Terdapat masalah mengupdate file:
+terdapat pengecualian saat mengupdate boot
+Error mengupdate boot
+
+
+Terdapat masalah membuat file pemasang:
+Error membuat pemasang
+Error MCI tidak diketahui
+Gagal membuka link
+
+File berikut tidak ditemukan:\n{0}
+Tidak ada file diterima ditemukan
+Pilih Windows folder
+Dikembalikan semula '{0}' to '{1}'
+Tidak ada file diperbaiki
+Pengembalian semula file
+Berhasil mengupdate animasi dan teks!
+Berhasil mengupdate boot!
+Tentang
+Mengunggah Boot Skin
+Cek versi
+Anda menjalankan versi terbaru dari Windows 7 Boot Updater.
+Anda tidak menjalankan versi terbaru dari Windows 7 Boot Updater. Versi terbaru adalah {0}.
+Pilih gambar latar belakang
+Pilih folder berisi animasi. 
+Informasi animasi
+tutup
+File gambar
+Semua file
+Boot Skin untuk Windows 7
+
+
+pada partisi sistem tersembunyi
+Versi Command Line
+Terpakai
+Opsi
+atau, untuk mengembalikan file:
+pilihannya adalah:
+atur pilihan dibawah ini sebanyak mungkin
+Anda dapat menggunakan program GUI untuk membuat file BS7
+Versi {0}
+oleh Jeff Bush
+Kunjungi coderforlife.com/projects/win7boot/ untuk informasi tambahan
+Lihat coderforlife.com/projects/win7boot/eula/ untuk lisensi produk ini
+[b]Masalah? Bugs? Komentar?[/b] Email saya di [jeff@coderforlife.com]
+Website: [{0} coderforlife.com]
+Halaman Windows 7 Boot: [{0} coderforlife.com/projects/win7boot]
+[b]Suka program ini?[/b] [{0} Donasi!]
+[b]Terima kasih kepada:[/b]
+joakim dan marcusj0015 at [http://www.sevenforums.com/ sevenforums.com] untuk semua masukan mereka
+
+Mattahan di [http://mattahan.deviantart.com/ mattahan.deviantart.com] untuk logo monitor/gambaran
+Dan semua orang yang telah menguji program ini dan yang telah memberikan masukan!
+Terjemahan
+{0} diterjemahkan oleh {1}
+Versi
+
+Lisensi
+
+
+&Muat boot skin…
+
+&Simpan boot skin sebagai…
+&Buat pemasang boot skin…
+&Unggah boot skin…
+&Lihat berbagai boot skin…
+&Keluar
+&Opsi
+Pilih folder 'Windows'…
+&Kembalikan cadangan
+Bahasa
+Kontribusi terjemahan…
+&Bantuan
+Tentang…
+Cek update…
+&Situs Windows 7 Boot Updater…
+Donasi…
+
+
+Animasi
+Sama
+
+Gambar Statis
+Animasi
+Latar Belakang:
+Metode:
+Sederhana
+Menyeluruh
+&Pesan
+&Jumlah:
+Tidak Ada
+1 Pesan
+2 Pesan
+Pesan {0}
+Teks:
+Warna Font:
+Posisi:
+Ukuran Font:
+Latar Belakang
+&Terapkan
+Satu waktu
+Berulang
+&Layar penuh
+&Jeda
+&Mainkan
+
+[Tersimpan]
+[Tidak ada dipilih]
+
+
+Kanan/Kiri
+
+Layar semula
+Mainkan/Jeda
+Kembali/Maju 1 Frame
+Frame Awal/Akhir
+Buat pemasang
+Buat pemasang terpisah dengan desain boot skin sendiri.\npemasang tidak membutuhkan sumber tambahan dan berfungsi pada 32 dan 64bit.\nAnda dapat menambahkan info tambahan untuk pemasang. Nama skin dan nama pembuat diperlukan.
+Nama Skin:
+Pembuat Skin:
+
+Deskripsi:
+Lisensi:
+Buat
+Anda harus mengisi nama skin dan nama pembuat
+Mainkan lagi
+Dapatkan tantangan visual
+Dapatkan tantangan audio
+Dapatkan tantangan baru
+
+Pemasang Windows 7 Boot Skin
+Pemasang Boot Skin untuk Windows 7
+Hanya dapat digunakan pada Windows 7
+{0} oleh {1}
+Gagal mengembalikan {0}
+< &Kembali
+&Selanjutnya >
+&Batal
+Saya &Setuju
+&Pasang
+Persetujuan Lisensi
+Silakan meninjau persyaratan lisensi sebelum memasang boot skin
+Melepas skin terpasang
+Siap memasang
+Memasang
+Berhasil melakukan pemasangan
+Gagal melakukan pemasangan
+Siap melepas
+Melepas
+Berhasil melepas
+Gagal melepas
+Persyaratan Windows 7 Boot Updater:
+Persyaratan untuk {0} boot skin oleh {1}:
+Jika Anda setuju, klik 'Saya setuju' untuk melanjutkan.\nAnda harus setuju untuk melanjutkan memasang Windows 7 Boot Skin ini.
+Pemasang ini dibuat dengan [{0} Windows 7 Boot Updater] dikembangkan oleh [{1} Coder for Life].\n\nKlik lanjut untuk melanjutkan.
+Boot skin lain telah terpasang. Harus dilepas sebelum memasang yang baru.\n\nBoot skin terpasang adalah [b]{0}[/b] oleh [b]{1}[/b].\n\nKlik lanjut untuk melepas boot skin.
+Siap memasang Windows 7 boot skin [b]{0}[/b] oleh [b]{1}[/b].\n\nFile berikut akan dimodifikasi:\n\n{2}\n\nJika Anda ingin memodifikasi file lain, Anda perlu menggunakan Grafik atau versi Command Line. Lihat [{3} coderforlife.com/projects/win7boot] untuk info lebih lanjut.
+Memasang boot skin [b]{0}[/b] oleh [b]{1}[/b].\n\nMungkin memakan waktu beberapa menit.\n\nJangan menutup program ini atau sistem Anda mungkin akan rusak.
+Berhasil memasang Windows 7 Boot Skin [b]{0}[/b] oleh [b]{1}[/b].
+Gagal memasang Windows 7 Boot Skin [b]{0}[/b] oleh [b]{1}[/b].\n\n{2}
+Siap melepas Windows 7 boot skin [b]{0}[/b] oleh [b]{1}[/b].\n\nJika ingin melanjutkan, Klik lanjut.
+Melepas boot skin [b]{0}[/b] oleh [b]{1}[/b].\n\nMungkin memakan waktu beberapa menit.\n\nJangan menutup program ini atau sistem Anda mungkin akan rusak.
+Berhasil melepas Windows 7 Boot Skin [b]{0}[/b] oleh [b]{1}[/b].\n\n{2}
+Gagal melepas Windows 7 Boot Skin [b]{0}[/b] oleh [b]{1}[/b].\n\n{2}\n\n{3}

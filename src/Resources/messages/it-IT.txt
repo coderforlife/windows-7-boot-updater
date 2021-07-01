@@ -1,0 +1,239 @@
+﻿
+ClaySoft '65
+Impossibile creare il Backup di {0}
+Il file {0} non può essere letto come un file PE
+Il file {0} non contiene le risorse appropriate ({1})
+Il file non è {0} secondo le sue informazioni di versione
+Il file sembra {0} e non {1}
+Impossibile aggiornare la risorsa WIM all'interno di bootres
+Impossibile aggiornare le risorse all'interno di {0}
+Impossibile rimuovere il certificato digitale da {0}
+Impossibile salvare l'aggiornamento di {0}
+Impossibile disattivare protezione del filesystem in {0}
+Impossibile ripristinare protezione del filesystem in {0}
+Impossibile aggiornare il testo della tabella messaggi in {0}
+Impossibile salvare l'animazione
+Impossibile catturare il file WIM
+Impossibile leggere il file WIM
+Impossibile aggiornare {0} in {1}
+Impossibile aggiornare il Font di Boot in {0}, la causa può essere il file già modificato o un recente Update di Windows che ha cambiato qualcosa
+Impossibile aggiornare il testo del Copyright in {0}, la causa può essere il file già modificato o un recente Update di Windows che ha cambiato qualcosa
+Impossibile aggiornare testo e proprietà dello sfondo in {0}, la causa può essere il file già modificato o un recente Update di Windows che ha cambiato qualcosa
+Impossibile disabilitare protezione di bootres / winload in {0}, la causa può essere il file già modificato o un recente Update di Windows che ha cambiato qualcosa
+Impossibile disabilitare protezione di bootmgr.exe, la causa può essere il file già modificato o un recente Update di Windows che ha cambiato qualcosa
+La ri-compressione di bootmgr.exe è fallita
+Impossibile creare un file temporaneo
+Impossibile creare una cartella temporanea
+Impossibile eliminare un file temporaneo
+C'è stata un'eccezione imprevista durante l'aggiornamento del file
+Errore sconosciuto ({0:X})
+CreateFile non riuscito ({0:X})
+Errore rilevato durante la rilevazione del percorso {0}
+
+Il percorso {0} nel BCD o non è valido od è di un tipo non ancora supportato
+Il percorso {0} nel BCD non è valido
+Il percorso {0} nel BCD si riferisce ad un file EFI che non è attualmente supportato
+Il Boot Skin non è di una versione conosciuta
+L'origine dell'animazione non può essere 'winload' per winload
+Il file {0} non può essere aperto per la scrittura
+Il file {0} non può essere convalidato
+Il file {0} non può essere letto
+Errore nel caricamento del Boot Skin '{0}'
+Impossibile ottenere i dati del Boot Skin
+
+Caricamento Patch non riuscito
+La versione della patch è più recente di quanto questo programma possa comprendere
+Patch obsoleta
+Non posso aprire il file '{0}' come file immagine, i formati accettabili sono BMP, PNG, GIF, JPEG, e TIFF
+La cartella '{0}' non può essere aperta
+La cartella '{0}' non contiene nessun file immagine accettabile ( BMP, PNG, GIF, JPG, o TIF)
+Deve essere un completo activity.bmp o 105 immagini in PNG, BMP, GIF, o TIF
+Errore nell'apertura dell'Animazione
+Aggiornamento {0}…
+In Completamento…
+Compressione Animazione…
+Modifica risorse…
+Nessun Errore
+
+S
+s
+
+
+ERRORE
+Impossibile abilitare l'elevazione dei privilegi di accesso
+Errore Critico
+Errore Caricamento
+Errore Salvataggio
+Opzione non riconosciuta: {0}
+Errore con {0}
+C'è stato un problema nella verifica di '{0}'
+Selezionare un file differente
+Andare su 'Opzioni' e selezionare un {0} appropriato
+Numero errato degli argomenti
+Non posso trovare il file BS7 specificato: '{0}'
+Il file BS7 offerto '{0}' non è valido:
+C'è stata un'eccezione imprevista durante l'aggiornamento del file:
+C'è stato un problema nell'aggiornamento del file:
+Eccezione nell'aggiornamento del Boot
+Errore nell'aggiornamento del Boot
+
+
+C'è stato un errore nella creazione dell'Installer
+Errore creazione Installer
+Errore MCI sconosciuto
+Impossibile aprire collegamento
+Presto in Arrivo !
+Sono stati trovati i seguenti file :\n{0}
+Nessun file accettabile è stato trovato
+Selezionare Cartella Windows
+Ripristinato '{0}' in '{1}'
+Nessun file è stato ripristinato
+Ripristino file
+Aggiornati con successo il testo e l'animazione del Boot !
+Aggiornamento del Boot completato !
+A Proposito
+
+Controllo di Versione
+State già utilizzando l'ultima versione di Windows 7 Boot Updater.
+Non state utilizzando l'ultima versione di Windows 7 Boot Updater. La versione più recente è {0}.
+Selezionare Immagine di sfo&ndo
+Selezionare la cartella che contiene l'animazione.
+Informazioni Animazione
+Chiudi
+File Immagine
+Tutti i file
+Boot Skin per Windows 7
+{0} cartella, {1}
+{0} file, predefinito: {1}
+nella partizione di sistema nascosta
+Versione Linea di Comando
+Uso
+opzioni
+o per ripristinare i file di Backup:
+Dove sono le opzioni:
+impostate il maggior numero possibile delle seguenti opzioni
+Potete usare la GUI del programma per creare i file BS7
+Versione {0}
+di Jeff Bush
+Visitare coderforlife.com/projects/win7boot/ per maggiori informazioni
+Controlla coderforlife.com/projects/win7boot/eula/ per la licenza di questo prodotto
+[b]Problemi ? Errori ? Commenti ?[/b] Mandatemi una Email su [jeff@coderforlife.com]
+La Mia homepage: [{0} coderforlife.com]
+Pagina di Windows 7 Boot : [{0} coderforlife.com/projects/win7boot]
+[b]Vi piace questo programma ?[/b] [{0} Donate !]
+[b]Ringraziamenti a :[/b]
+joakim e marcusj0015 su [http://www.sevenforums.com/ sevenforums.com] per tutti i loro input
+
+Mattahan su [http://mattahan.deviantart.com/ mattahan.deviantart.com] per il logo monitor/pittura
+Ed a tutte le persone che hanno testato il programma e fornito stupendi feedback !
+Traduzioni
+{0} tradotto da {1}
+Versioni
+
+Licenza
+
+
+C&arica Boot Skin…
+
+&Salva Boot Skin come…
+&Creare Installer Boot Skin…
+
+Sfo&glia Boot Skin pubblici…
+&Esci
+&Opzioni
+Selezionare Cartella 'Windows'…
+&Ripristina Backup
+Lingua
+Contribuisci per una Traduzione…
+&Aiuto
+A Proposito di…
+Controlla Aggiornamenti…
+Pagina web &Windows 7 Boot Updater…
+
+Boot in corso
+Resume in corso
+Animazione
+Solito
+Predefinito
+Immagine Statica
+Animazione
+Sfo&ndo
+Metodo :
+Semplice
+Completo
+&Messaggi
+&Conteggio :
+Nessuno
+1 Messaggio
+2 Messaggi
+Messaggio {0}
+Testo :
+Colore Font :
+Posizione :
+Dimensione Font :
+Sfondo
+&Applica
+Diretto
+In Loop
+Schermo &Intero
+&Pausa
+&Riproduci
+
+[Incorporato]
+[Nessuna Selezione]
+
+Spazio
+Sinistra/Destra
+Inizio/Fine
+Esci da schermo intero
+Riproduci/Pausa
+Indietro/Avanti di 1 Frame
+Primo/Ultimo Frame
+Creare l' Installer
+Creazione di un Installer standalone con il Boot Skin designato.\nL' Installer non richiede assolutamente nessuna libreria esterna e funziona in Windows 7 a 32-bit e 64-bit.\nPotete aggiungere informazioni addizionali all' Installer. Sono richiesti l'autore ed il nome della skin.
+Nome Skin :
+Autore Skin :
+
+Descrizione :
+Licenza :
+Creare
+Dovete fornire uun nome e l'autore per la Skin
+Riproduci di nuovo
+Prepara un compito video
+Prepara un compito audio
+Prepara un nuovo compito
+
+
+Boot Skin Installer per Windows 7
+Questo può essere usato solo in Windows 7
+{0} di {1}
+Impossibile ripristinare {0}
+< I&ndietro
+&Avanti >
+&Annulla
+Sono &D'accordo
+&Installa
+Accordo di Licenza
+Si prega di controllare i termini di Licenza prima di installare il Boot Skin
+Disinstalla attuale
+Pronto ad installare
+Installazione in corso
+Installato con successo
+Installazione impossibile
+Pronto a disinstallare
+Disinstallazione in corso
+Disinstallato con successo
+Disinstallazione impossibile
+Condizioni per Windows 7 Boot Updater :
+Le condizioni per il Boot Skin {0} di {1} :
+Se accettate i termini dell'accordo, premete 'Sono D'accordo' per continuare.\nDovete accettare l'accordo per installare questo Boot Skin per Windows 7.
+Questo Installer è stato generato usando [{0} Windows 7 Boot Updater] sviluppato da [{1} Coder for Life].\n\nPremere Avanti per continuare.
+Un altro Boot Skin è già installato. Deve essere completamente disinstallato prima che uno nuovo possa essere installato.\n\nIl Boot Skin attuale è [b]{0}[/b] di [b]{1}[/b].\n\nPremere Avanti per disinstallare l'attuale Boot Skin.
+Pronto ad installare il Boot Skin [b]{0}[\b] di [b]{1}[\b] per Windows 7.\n\nI seguenti file verranno modificati :\n\n{2}\n\nSe volete modificare file differenti, dovrete usare o il programma grafico o quello da linea di comando. Controllare [{3} coderforlife.com/projects/win7boot] per maggiori informazioni.
+Installazione del Boot Skin [b]{0}[\b] di [b]{1}[\b].\n\nNon chiudete questo programma o il vostro sistema potrebbe non eseguire il Boot.
+Installato con successo il Boot Skin per Windows 7 [b]{0}[/b] di [b]{1}[/b].
+Impossibile installare il Boot Skin per Windows 7 [b]{0}[/b] di [b]{1}[/b].\n\n{2}
+Pronto ad installare il Boot Skin per Windows 7 [b]{0}[/b] di [b]{1}[/b].\n\nSe volete continuare, premere Avanti.
+Disinstallazione del Boot Skin [b]{0}[/b] di [b]{1}[/b].\n\nPotrebbero essere necessari alcuni minuti.\n\nNon chiudete questo programma o il vostro sistema potrebbe non eseguire il Boot.
+Disinstallato con successo il Boot Skin per Windows 7 [b]{0}[/b] di [b]{1}[/b].\n\n{2}
+Impossibile disinstallare il Boot Skin per Windows 7 [b]{0}[/b] di [b]{1}[/b].\n\n{2}\n\n{3}

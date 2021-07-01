@@ -1,0 +1,60 @@
+<!--
+Windows 7 Boot Updater (github.com/coderforlife/windows-7-boot-updater)
+Copyright (C) 2021  Jeffrey Bush - Coder for Life
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+
+  <data name="app" type="System.Resources.ResXFileRef">
+    <value>app.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+
+  <data name="yes" type="System.Resources.ResXFileRef">
+    <value>yes.png;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="no" type="System.Resources.ResXFileRef">
+    <value>no.png;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="invalid" type="System.Resources.ResXFileRef">
+    <value>invalid.png;System.IO.MemoryStream, mscorlib</value>
+  </data>
+
+  <data name="c4l" type="System.Resources.ResXFileRef">
+    <value>c4l.png;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="eula" type="System.Resources.ResXFileRef">
+    <value>eula.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef">
+    <value>logo.png;System.IO.MemoryStream, mscorlib</value>
+  </data>
+
+  <data name="installer" type="System.Resources.ResXFileRef">
+    <value>installer.exe.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+</root>

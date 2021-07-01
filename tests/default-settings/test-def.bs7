@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BootSkin7 version="1">
+  <Winload>
+    <BackgroundColor>00AA00</BackgroundColor>
+    <Messages>
+      <BackgroundColor>FF0000</BackgroundColor>
+      <Message id="1">
+        <Text>Micro Corp copyrights this thing</Text>
+        <Position>550</Position>
+        <TextColor>000000</TextColor>
+        <TextSize>36</TextSize>
+      </Message>
+      <Message id="2">
+        <Text>Starting Windows 7 Super!</Text>
+        <Position>150</Position>
+        <TextColor>0000FF</TextColor>
+        <TextSize>52</TextSize>
+      </Message>
+    </Messages>
+  </Winload>
+  <Winresume>
+    <BackgroundColor>AA0000</BackgroundColor>
+    <Messages>
+      <BackgroundColor>FFFFFF</BackgroundColor>
+      <Message id="1">
+        <Text>Is this copyright message really necessary while resuming?</Text>
+        <Position>500</Position>
+        <TextColor>0000FF</TextColor>
+        <TextSize>24</TextSize>
+      </Message>
+      <Message id="2">
+        <Text>Resuming Windows...</Text>
+        <Position>125</Position>
+        <TextColor>000000</TextColor>
+        <TextSize>72</TextSize>
+      </Message>
+    </Messages>
+  </Winresume>
+</BootSkin7>

@@ -1,0 +1,6 @@
+These are for use with VirtualBox on Linux.
+
+The original vbox files are saved here, and since the hard drive is blasted every time, that is all
+that is needed to get them going in VirtualBox.
+
+This does not get 100% of the way through the tests, but all the time consuming parts are setup here.

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Windows 7 Boot Updater (github.com/coderforlife/windows-7-boot-updater)
+Copyright (C) 2021  Jeffrey Bush - Coder for Life
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<!--
+
+The XML file that is validated using this XSD is only part of the BS7 file format.
+
+The entire BS7 file format is a multipart/related file with the following parts:
+	an "application/xml" entry with the ID of "bs7" that contains the XML file validated using this XSD
+	as many "image/png" entries that are referenced by the "cid" attribute of either "Animation" or "Background" tags in the XML
+
+You may choose to put the PNG data inline within the XML. In that case it must be base64 encoded and the "cid" attribute must be left out.
+If you only have an XML file there is no need to wrap it in the multipart format. The program detects this and handles it appropiately.
+
+The multipart file reader built into the Windows 7 Boot Updater is very simple. Currently the following restrictions apply:
+	the multipart headers and boundaries must be ASCII encoded (preferably 7-bit codes only)
+	the only headers that are looked at are "Content-Type" and "Content-ID" (so "Content-Transfer-Encoding" and others are ignored)
+	use the exact capitilization as used in the template (NOT case-insensitive)
+	the boundary specification can be surrounded by " or ', but there is no way to escape those characters (or ; if not quoted)
+
+BS7 File Template (note: since XML doesn't allow dash-dash in comments ~~ is used instead, but you must use two dashes):
+
+
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="some random string"
+
+~~some random string
+Content-ID: bs7
+Content-Type: application/xml
+
+ï»¿<?xml version="1.0" encoding="utf-8"?><BootSkin7 version="1"><Winload><Animation cid="wl-anim" />...</Winload></BootSkin7>
+~~some random string
+Content-ID: wl-anim
+Content-Type: image/png
+
+‰PNG
+
+   
+IHDR   .... (lots of data in binary)
+~~some random string~~
+
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="color">
+    <xs:restriction base="xs:hexBinary">
+      <xs:length value="3"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="animationSource">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="default"/>
+      <xs:enumeration value="winload"/>
+      <xs:enumeration value="embedded"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="data">
+    <xs:simpleContent>
+      <xs:extension base="xs:base64Binary">
+        <xs:attribute name="cid" type="xs:string" use="optional" /><!-- Content-ID of data in multipart file -->
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="file">
+    <xs:sequence>
+      <xs:element name="Animation" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="data">
+              <xs:attribute name="source" type="animationSource" use="optional" default="embedded" />
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="BackgroundColor" type="color" default="000000" maxOccurs="1" minOccurs="0" />
+      <xs:element name="Background" maxOccurs="1" minOccurs="0" type="data"/>
+      <xs:element name="Messages" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="BackgroundColor" type="color" default="000000" maxOccurs="1" minOccurs="0" />
+            <xs:element maxOccurs="2" minOccurs="0" name="Message">
+              <xs:complexType>
+                <xs:all>
+                  <xs:element name="Text" type="xs:string" />
+                  <xs:element name="Position">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0"/>
+                        <xs:maxInclusive value="768"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TextColor" type="color" />
+                  <xs:element name="TextSize">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1"/>
+                        <xs:maxInclusive value="120"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:all>
+                <xs:attribute name="id" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                      <xs:minInclusive value="1"/>
+                      <xs:maxInclusive value="2"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BootSkin7">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Winload" maxOccurs="1" minOccurs="1" type="file" />
+        <xs:element name="Winresume" maxOccurs="1" minOccurs="0" type="file" />
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:double" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

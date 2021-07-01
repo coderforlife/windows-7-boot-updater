@@ -1,0 +1,101 @@
+﻿<!--
+Windows 7 Boot Updater (github.com/coderforlife/windows-7-boot-updater)
+Copyright (C) 2021  Jeffrey Bush - Coder for Life
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+
+  <data name="en-US" type="System.Resources.ResXFileRef">
+    <value>messages\en-US.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="zh-CN" type="System.Resources.ResXFileRef">
+    <value>messages\zh-CN.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="pt-PT" type="System.Resources.ResXFileRef"><!-- pt-BR -->
+    <value>messages\pt-PT.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="de-DE" type="System.Resources.ResXFileRef">
+    <value>messages\de-DE.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="ru-RU" type="System.Resources.ResXFileRef">
+    <value>messages\ru-RU.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="es-MX" type="System.Resources.ResXFileRef"><!-- es-ES -->
+    <value>messages\es-MX.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="it-IT" type="System.Resources.ResXFileRef">
+    <value>messages\it-IT.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="fr-FR" type="System.Resources.ResXFileRef">
+    <value>messages\fr-FR.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <!-- ko-KO -->
+  <data name="tr" type="System.Resources.ResXFileRef">
+    <value>messages\tr.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="pl" type="System.Resources.ResXFileRef">
+    <value>messages\pl.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="hu" type="System.Resources.ResXFileRef">
+    <value>messages\hu.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="nl-BE" type="System.Resources.ResXFileRef">
+    <value>messages\nl-BE.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="sv-SE" type="System.Resources.ResXFileRef">
+    <value>messages\sv-SE.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="el" type="System.Resources.ResXFileRef">
+    <value>messages\el.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="sk" type="System.Resources.ResXFileRef">
+    <value>messages\sk.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="he" type="System.Resources.ResXFileRef">
+    <value>messages\he.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="vi" type="System.Resources.ResXFileRef">
+    <value>messages\vi.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="id" type="System.Resources.ResXFileRef">
+    <value>messages\id.txt.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+
+  <data name="bs7" type="System.Resources.ResXFileRef">
+    <value>bs7.bin.gz;System.IO.MemoryStream, mscorlib</value>
+  </data>
+  <data name="winload" type="System.Resources.ResXFileRef">
+    <value>winload.patch;System.IO.MemoryStream, mscorlib;utf-8</value>
+  </data>
+  <data name="winresume" type="System.Resources.ResXFileRef">
+    <value>winresume.patch;System.IO.MemoryStream, mscorlib;utf-8</value>
+  </data>
+  <data name="bootmgr" type="System.Resources.ResXFileRef">
+    <value>bootmgr.patch;System.IO.MemoryStream, mscorlib;utf-8</value>
+  </data>
+</root>

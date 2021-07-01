@@ -1,0 +1,239 @@
+﻿
+[http://www.deskmodder.de/phpBB3/memberlist.php?mode=viewprofile&u=28271 Tedriran] von [www.deskmodder.de]
+Konnte kein Backup von {0} erstellen
+Die Datei {0} konnte nicht als PE-Datei erkannt werden
+Die Datei {0} enthält nicht die nötigen Ressourcen {1}
+Die Datei ist laut seinen Eigenschaften kein {0} 
+Diese Datei ist eine {0} , keine {1}
+Update der WIM innerhalb der bootres fehlgeschlagen
+Update der Ressource innerhalb von {0} fehlgeschlagen
+Fehler beim Entfernen des digitalen Zertifikats aus {0}
+Speichern der geänderten {0} fehlgeschlagen
+Deaktivierung der Dateisicherheit von {0} fehlgeschlagen
+Wiederherstellen der Dateisicherheit von {0} fehlgeschlagen
+Fehler beim ändern des Textes in {0}
+Speichern der Animation fehlgeschlagen
+Ersetzen der WIM fehlgeschlagen
+Fehler beim Lesen der WIM-Datei
+Fehler beim ändern von {0} in {1}
+Fehler beim Ändern der Schriftart in {0}. Dies kann daran liegen, dass die Datei nicht original ist oder ein Windowsupdate etwas geändert hat.
+Fehler beim Ändern des Copyright Textes in {0}. Dies kann daran liegen, dass die Datei nicht original ist oder ein Windowsupdate etwas geändert hat.
+Fehler beim Ändern des Textes und der Hintergrundeigenschaften in {0}. Dies kann daran liegen, dass die Datei nicht original ist oder ein Windowsupdate etwas geändert hat.
+Fehler beim deaktivieren der Sicherheitseinstellungen von bootres / winload in {0}
+Fehler beim deaktivieren der Sicherheitseinstellungen der bootmgr.exe - Dies kann daran liegen, dass die Datei nicht original ist oder ein Windowsupdate etwas geändert hat.
+Fehler beim erneuten Komprimieren der bootmgr.exe
+Fehler beim Erstellen einer temp-Datei
+Fehler beim Erstellen eines temp-Dateipfades
+Fehler beim Löschen einer temp-Datei
+Es gab eine unvorhergesehene Ausnahme beim Ändern der Dateien
+Unbekannter Fehler {0:X}
+Dateierstellung fehlgeschlagen {0:X}
+Fehler beim Abrufen des Dateipfades {0}
+
+Der Pfad {0} im BCD ist inkorrekt oder Ziel wird zurzeit nicht unterstützt
+Der Pfad {0} innerhalb des BCD ist inkorrekt
+Der Pfad {0} im BCD beinhaltet EFI-Dateien, die zurzeit nicht unterstützt werden
+Bootskin ist eine unbekannte Version
+Die Animationsquelle kann keine 'winload' für winload sein
+Die Datei '{0}' kann zum Überschreiben nicht geöffnet werden
+Die Datei '{0}' kann nicht validiert werden
+Die Datei '{0}' kann nicht gelesen werden
+Fehler beim Laden des Bootskin '{0}'
+Bootskin-Daten konnten nicht abgerufen werden
+
+Laden des Dateipfades fehlgeschlagen
+Die Patch-Version ist neuer als die des Programms und kann nicht aufgelöst werden
+Der Patch ist nicht mehr aktuell
+Kann angegebene Datei '{0}' nicht als Grafikdatei öffnen. Akzeptierte Formate sind .BMP, .PNG, .GIF, .JPEG, .TIFF
+Kann Verzeichnis '{0}' nicht öffnen
+Das Verzeichnis '{0}' enthält keine verwertbaren Bilddateien (BMP, PNG, GIF, JPG oder TIF)
+Es wird eine fertige activity.bmp oder 105 Einzelbilder in .BMP, .PNG, .GIF, .JPEG, .TIFF benötigt
+Fehler beim Öffnen der Animation
+Aktualisiere {0}…
+Fertigstellen…
+Komprimiere Animation…
+Modifiziere Resourcen…
+Kein(e) Fehler
+
+J
+j
+
+
+Fehler
+In Besitz nehmen der Datei ist fehlgeschlagen
+Kritischer Fehler
+Fehler beim Laden
+Fehler beim Speichern
+Unbekannte Option: {0}
+Fehler bei {0}
+Es gab ein Problem. Bitte '{0}' überprüfen
+Wähle eine andere Datei
+Wählen Sie unter Optionen eine entsprechende {0}
+Falsche Anzahl an Argumenten
+Kann angegebene BS7-Datei nicht finden: '{0}'
+Die BS7-Datei von '{0}' ist ungültig
+Es gab ein unerwartetes Problem beim Ändern der Dateien:
+Es gab ein Problem mit dem Ändern der Dateien:
+Boot Update Ausnahme
+Boot Update Fehler
+
+
+Es gab ein Problem beim erstellen des Installers
+Erstellt Installer-Fehler
+Unbekannter MCI Fehler
+Konnte den Link nicht öffnen
+Bald Verfügbar!
+Die folgenden Dateien wurden gefunden:\n{0}
+Es wurden keine akzeptablen Dateien gefunden
+Wähle den Ordner aus
+Wiederhergestellt '{0}' von '{1}'
+Es wurden keine wiederhergestellt
+Dateiwiederherstellung
+Ändern der Bootanimation und des Textes erfolgreich durchgeführt!
+Boot Update erfolgreich!
+Über
+Bootskin hochladen
+Version überprüfen
+Es läuft die letzte Version des Windows 7 Boot Updaters.
+Es läuft nicht die letzte Version des Windows 7 Boot Updaters. Die letzte Version ist {0}.
+Hintergrundbild wählen
+Ordner der Animation angeben.
+Animationsinformationen
+Schließen
+Bilddateien
+Alle Dateien
+Boot Skin für Windows 7
+{0} Datei, {1}
+{0} Datei, Voreinstellung: {1}
+Auf versteckter Systempartition
+Kommandozeilenversion
+Anwendung
+Optionen
+oder um Backupdateien wiederherzustellen:
+Wo sind die Optionen:
+Legt fest, wie viele der Optionen möglich sind.
+Sie können das grafische Programm (GUI) zum erstellen von BS7-Dateien verwenden
+
+von Jeff Bush
+Für mehr Informationen besuchen Sie coderforlife.com/projects/win7boot/
+Lizenzinformationen unter coderforlife.com/projects/win7boot/eula/
+[b]Probleme? Bugs? Kommentare?[/b] Kontakt-E-Mail-Adresse [jeff@coderforlife.com]
+Meine Homepage: [{0} coderforlife.com]
+Windows 7 Boot Seite: [{0} coderforlife.com/projects/win7boot]
+[b]Sie mögen dieses Programm?[/b] [{0} Spenden Sie!]
+[b]Dank geht an:[/b]
+joakim und marcusj0015 auf [http://www.sevenforums.com/ sevenforums.com] für all ihre Informationen und Unterstützung
+
+Mattahan auf [http://mattahan.deviantart.com/ mattahan.deviantart.com] für das Logo
+und allen Nutzern, die dieses Programm getestet und mir ein Feedback haben zukommen lassen!
+Übersetzungen
+{0} übersetzt von {1}
+Versionen
+{0} Datenbank:
+Lizenz
+
+&Datei
+&Lade Bootskin…
+
+&Speichern unter…
+&Erstelle Bootskininstaller
+&Bootskin hochladen…
+&Gehe zu 'Puplic Bootskins'…
+Schließen
+&Optionen
+
+&Wiederherstellen von Sicherungen
+Sprache
+Bei Übersetzung mitwirken…
+&Hilfe
+&Über…
+Auf Updates überprüfen...
+Windows 7 Boot Updater Webseite
+Spenden…
+Booten
+Ruhezustand 
+
+Gleich
+Voreinstellung
+statisches Bild
+
+Hintergrund:
+Art:
+Einfach
+Vollständig
+&Texte
+&Anzahl:
+Leer
+1 Text
+2 Texte
+Text {0}
+
+Schriftfarbe
+
+Schriftgröße:
+Hintergrund
+&Übernehmen
+Anzeige einmalig
+Wiederholende Anzeige
+&Vollbild
+
+Abspielen
+
+[Eingebettet]
+[Nicht ausgewählt]
+
+Leer
+Links/Rechts
+Home/Ende
+Vollbild schließen
+Abspielen/Pause
+Zurück/Vor 1 Frame
+Erstes/Letztes Frame
+Erstelle Installer
+Erstellen Sie einen Standalone-Installer mit dem erstellten Bootskin.\nDer Installer benötigt außerhalb keine Bibliotheken und arbeitet in Windows 7 x32 und x64.\nZusätzliche Informationen zum Installer können hinzu gefügt werden.  Name vom Skin und Ersteller sind erforderlich.
+
+Skin Ersteller:
+
+Beschreibung:
+Lizenz:
+Erstellt
+Sie müssen einen Namen und den Ersteller des Skins angeben
+Nochmal abspielen
+Optische Veränderung
+Akustische Veränderung
+Neue Veränderung
+
+
+Bootskin Installer für Windows 7
+Dies kann nur unter Windows 7 verwendet werden
+{0} von {1}
+Fehler beim Wiederherstellen {0}
+< &Zurück
+&Nächster >
+&Löschen
+Ich stimme zu
+Installiere
+Lizenz-Vereinbarung
+Bitte lesen Sie die Lizenzbedingungen vor der Installation des Bootskins
+Aktuelle deinstallieren
+Bereit zur Installation
+Installation
+Erfolgreich installiert
+Konnte nicht installiert werden
+Bereit zur Deinstallation
+Deinstallieren
+Erfolgreich deinstalliert
+Deinstallation fehlgeschlagen
+Windows 7 Boot Updater Bedingungen:
+Die Bedingungen für den {0} Bootskin von {1}:
+Wenn Sie die Bedingungen der Vereinbarung(en) akzeptieren, klicken Sie auf 'Ich stimme zu' um fortzufahren.\nSie müssen die Vereinbarungen akzeptieren um den Windows 7 Bootskin zu installieren.
+Der Installer wurde erzeugt mit Hilfe von [{0} Windows 7 Boot Updater] entwickelt von [{1} Coder for Life].\n\nKlicke auf Nächste um fortzufahren.
+Ein anderer Bootskin ist zur Zeit installiert. Er muss komplett deinstalliert werden, bevor ein neuer installiert werden kann.\n\nDer derzeitige Bootskin ist [b]{0}[/b] von [b]{1}[/b].\n\nKlicke Nächste um den derzeitigen Bootskin zu deinstallieren.
+Bereit den Windows 7 Bootskin [b]{0}[/b] by [b]{1}[/b] zu installieren.\n\nDie folgenden Dateien werden modifiziert:\n\n{2}\n\nWenn Sie verschiedene Dateien ändern möchten, müssen Sie entweder die GUI- (Grafik) oder das Befehlszeilen-Programm verwenden. Siehe [{3} coderforlife.com/projects/win7boot] für mehr Informationen.
+Installiert den Bootskin [b]{0}[/b] by [b]{1}[/b].\n\nDies kann einige Minuten dauern.\n\nSchließen Sie nicht das Programm. Ansonsten kann das System nicht mehr booten.
+Die Installation des Bootskins [b]{0}[/b] von [b]{1}[/b] war erfolgreich.
+Die Installation des Bootskins [b]{0}[/b] by [b]{1}[/b].\n\n{2}
+Bereit den Windows 7 Bootskin [b]{0}[/b] von [b]{1}[/b] zu deinstallieren.\n\Wenn Sie es wollen klicken Sie auf Nächste.
+Deinstalliere den Bootskin [b]{0}[/b] by [b]{1}[/b].\n\nDies wird einige Minuten dauern. \n\nSchließen Sie nicht das Programm. Ansonsten kann das System nicht mehr booten.
+Die Deinstallation des Bootskins[b]{0}[/b] by [b]{1}[/b] war erfolgreich.\n\n{2}
+Die Deinstallation des Windows 7 Bootskins [b]{0}[/b] by [b]{1}[/b] ist fehlgeschlagen.\n\n{2}\n\n{3}

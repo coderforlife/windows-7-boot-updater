@@ -1,0 +1,239 @@
+﻿
+Vik/MorroHun Team [www.morrohun.hu]
+{0} biztonsági mentésének készítése nem sikerült
+A(z) {0} állományt nem lehetett PE állományként beolvasni
+A(z) {0} állomány nem tartalmaz megfelelő erőforrásokat ({1})
+Az állomány a verzió információja alapján nem {0}
+Az állomány mintha {0} lenne, nem pedig {1}
+WIM erőforrás frissítése sikertelen a 'bootres'-ben
+{0} erőforrásainak frissítése nem sikerült
+{0} digitális tanúsítványának eltávolítása sikertelen
+A frissített {0} mentése sikertelen
+{0} állománybiztonsági rendszerének kikapcsolása sikertelen
+{0} állománybiztonsági rendszerének helyreállítása sikertelen
+{0} üzenet tábla szövegének frissítése sikertelen
+Animáció mentése sikertelen
+WIM rögzítése sikertelen
+WIM beolvasása sikertelen
+{0} frissítése nem sikerült ebben: {1}
+{0} indító betűkészletének frissítések sikertelen, valószínűleg azért, mert módosult az állomány, vagy egy Windows frissítés megváltoztatott valamit
+{0} védjegy szövegének frissítése sikertelen, valószínűleg azért, mert módosult az állomány, vagy egy Windows frissítés megváltoztatott valamit
+{0} szövegének és háttér beállításainak frissítése sikertelen, valószínűleg azért, mert módosult az állomány, vagy egy Windows frissítés megváltoztatott valamit
+{0} bootres / winload biztonsági rendszerének kikapcsolása sikertelen, valószínűleg azért, mert módosult az állomány, vagy egy Windows frissítés megváltoztatott valamit
+Bootmgr.exe biztonsági rendszerének kikapcsolása sikertelen, valószínűleg azért, mert módosult az állomány, vagy egy Windows frissítés megváltoztatott valamit
+Bootmgr.exe újra tömörítése sikertelen
+Átmeneti állomány létrehozása sikertelen
+Átmeneti könyvtár létrehozása sikertelen
+Átmeneti állomány törlése sikertelen
+Lekezeletlen kivétel történt az állományok frissítése közben
+Ismeretlen hiba ({0:X})
+CreateFile sikertelen ({0:X})
+Hiba történt {0} útvonal kinyerése közben
+
+{0} útvonal a BCD-ben vagy érvénytelen, vagy még nem támogatott típusú
+{0} útvonal a BCD-ben érvénytelen
+{0} útvonal a BCD-ben egy olyan EFI állományra hivatkozik, ami még nem támogatott
+Az indító bőr nem értelmezhető verziójú
+Az animáció forrása nem lehet 'winload' a winload részére
+A '{0}' nevű állományt nem lehetett megnyitni írásra
+A '{0}' nevű állományt nem lehetett érvényesíttetni
+A '{0}' nevű állományt nem lehetett olvasni
+'{0}' indító bőr olvasása közben hiba történt
+Indító bőr adatok kinyerése sikertelen
+Telepítő
+Javítás betöltése sikertelen
+A javítás verziója újabb, mint amit ez a program értelmezni tud
+Javítás elavult
+'{0}' állományt nem lehetett megnyitni képként, elfogadható formátumok a következők: BMP, PNG, GIF, JPEG és TIFF
+'{0}' könyvtárat nem lehetett megnyitni
+'{0}' könyvtár nem tartalmaz elfogadható képformátumokat (BMP, PNG, GIF, JPEG vagy TIFF)
+Teljes activity.bmp-re van szükség, vagy 105 képkockából álló PNG, BMP, GIF vagy TIF-re
+Animáció nyitási hiba
+{0} frissítése…
+Befejezés…
+Animáció tömörítése…
+Erőforrások módosítása…
+Nincs hiba
+Windows 7 indítás frissítő
+I
+i
+
+
+HIBA
+A tulajdonba vételi előjog engedélyezése sikertelen
+Kritikus hiba
+Töltési hiba
+Mentési hiba
+Ismeretlen lehetőség: {0}
+Hiba történt ezzel kapcsolatban: {0}
+'{0}' ellenőrzése során gond adódott
+Válassz másik állományt
+Menj a 'Beállítások'-ba, és válassz megfelelő {0}-t
+Hibás argumentumszám
+A megadott BS7 állományt nem találtam meg: '{0}'
+A BS7 állomány '{0}' érvénytelen
+Lekezeletlen kivétel történt az állományok frissítése közben:
+Hiba történt az állományok frissítése közben:
+Indító frissítési kivétel
+Indító frissítési hiba
+
+
+Hiba történt a telepítő készítése során:
+Telepítő készítési hiba
+Ismeretlen MCI hiba
+Hivatkozás megnyitása sikertelen
+Hamarosan!
+A következő állományokat találtam:\n{0}
+Egyetlen elfogadható állományt sem találtam
+Válaszd ki a Windows mappát
+'{0}' helyreállítva erre: '{1}'
+Egyetlen állományt sem állítottam helyre
+Állományok helyreállítása
+Indító animáció és szöveg sikeresen frissítve!
+Indítás frissítése sikeres!
+Névjegy
+Indító bőr feltöltése
+Verzió ellenőrzés
+A legfrissebb Windows 7 indítás frissítőt használod.
+Nem a legfrissebb Windows 7 indítás frissítőt használod. A legfrissebb verzió {0}.
+Válassz &háttér képet
+Válaszd ki az animáció mappáját.
+Animáció információ
+Bezár
+Kép állományok
+Minden állomány
+Windows 7 indító bőr
+{0} mappa, {1}
+{0} állomány, alapértelmezett: {1}
+rejtett rendszerpartíción
+Parancssori verzió
+Használat
+lehetőségek
+vagy helyreállítani a biztonsági mentéseket:
+A lehetőségek:
+annyit állít be az alábbi lehetőségek közül, amennyi lehetséges
+A grafikus programot használhatod BS7 állományok készítéséhez
+Verzió {0}
+készítette: Jeff Bush
+Látogass el a coderforlife.com/projects/win7boot/ oldalra, ha bővebben is érdekel
+Nézd meg a coderforlife.com/projects/win7boot/eula/ oldalt a termék licenc használatáért
+[b]Gondok vannak? Hibák? Ötletek?[/b] írj nekem e-mailt a [jeff@coderforlife.com] címre
+Honlapom: [{0} coderforlife.com]
+Windows 7 indító oldal: [{0} coderforlife.com/projects/win7boot]
+[b]Tetszik ez a program?[/b] [{0} Támogasd!]
+[b]Köszönet:[/b]
+joakim és marcusj0015 a [http://www.sevenforums.com/ sevenforums.com] oldalon javaslataikért
+
+Mattahan a [http://mattahan.deviantart.com/ mattahan.deviantart.com] oldalon a monitor/festmény logoért
+Meg az összes embernek, akik kipróbálták és csodás visszajelzéseket adtak!
+Fordítások
+{0} fordítás: {1}
+Verziók
+{0} adatbázis:
+Licenc
+
+&Fájl
+Indító bőr betö&ltése…
+
+Indító bőr &mentése…
+Indító bőr telepítő ké&szítése…
+Indító bőr f&eltöltése…
+Ke&resés a nyilvános bőrök között…
+&Kilépés
+&Beállítások
+Válaszd ki a 'Windows' mappát…
+Biztonsági mentés &visszaállítása
+Nyelv
+Segíts a fordításban…
+Se&gítség
+Rólam…
+Frissítések keresése…
+&Windows 7 indító frissítés weboldal…
+Adomány…
+Indítás
+Folytatás
+Animáció
+Ugyanaz
+Alapértelmezett
+Statikus kép
+Animáció
+&Háttér:
+Mód:
+Egyszerű
+Teljes
+Ü&zenetek
+&Darab:
+Nincs
+1 üzenet
+2 üzenet
+Üzenet {0}
+Szöveg:
+Betű színe:
+Pozíció:
+Betű mérete:
+Háttér
+&Alkalmaz
+Egyenletes
+Ciklikus
+&Teljeskép
+Szü&net
+Le&játszás
+Képkocka
+[Beágyazott]
+[Nincs kiválasztott]
+
+Szóköz
+Balra/jobbra
+
+Kilépés teljes képernyőről
+Lejátszás/Szünet
+Vissza/előre 1 képkockát
+Első/utolsó képkocka
+Telepítő készítése
+Különálló telepítő készítése, kiválasztott indító bőrrel.\nA telepítőnek semmilyen külső könyvtárra nincs szüksége, és mind 32 mind 64-bites Windows 7 rendszeren működik.\nTovábbi információt is megadhatsz a telepítőnek. A bőr és a készítő nevére szükség van.
+Bőr neve:
+Bőr készítője:
+
+Leírás:
+Licenc:
+Készít
+Meg kell adnod a bőr nevét és készítőjét
+Újra játszás
+Képi kihívás
+Hang kihívás
+Új kihívás
+Windows 7 indító bőr
+Windows 7 indító bőr telepítő
+Indító bőr telepítő Windows 7 rendszerhez
+Ezt csak Windows 7 alatt használhatod
+{0} ennyivel: {1}
+Nem sikerült helyreállítani: {0}
+< &Vissza
+&Tovább >
+&Mégse
+&Egyetértek
+Tele&pítés
+Licenc megállapodás
+Kérlek, nézd át a licenc feltételeit, mielőtt telepítenéd az indító bőrt
+Jelenlegi eltávolítása
+Készen állok a telepítésre
+Telepítés
+Telepítés sikeresen megtörtént
+Telepítés nem sikerült
+Készen állok az eltávolításra
+Eltávolítás
+Eltávolítás sikeresen megtörtént
+Eltávolítás nem sikerült
+A Windows 7 indítás frissítő feltételei:
+{1} által készített {0} indító bőr feltételei:
+Ha elfogadod a megállapodás feltételeit, kattints az 'Egyetértek' gombra a folytatáshoz.\nEl kell fogadnod a megállapodást, hogy telepíthesd ezt a Windows 7 indító bőrt.
+Ezt a telepítőt a [{0} Windows 7 indítás frissítő] segítségével készítették, amit [{1} Coder for Life] fejlesztett ki.\n\nKattints a Tovább gombra.
+Már telepítettek egy másik indító bőrt. Teljesen el kell távolítani, mielőtt egy újat telepíthetnél.\n\nA jelenlegi indító bőrt ([b]{0}[/b]) [b]{1}[/b] készítette.\n\nKattints a Tovább gombra, ha el akarod távolítani.
+Készen állok a(z) [b]{1}[/b] által alkotott [b]{0}[/b] Windows 7 indító bőr telepítésére.\n\nA következő állományokat fogom módosítani:\n\n{2}\n\nHa másokat akarnál változtatni, akkor a grafikus vagy a parancssori programra lesz szükséged. További információt a [{3} coderforlife.com/projects/win7boot] oldalon találsz.
+[b]{1}[/b] által készített [b]{0}[/b] indító bőr telepítése.\n\nEz eltarthat néhány percig.\n\nNe zárd be ezt a programot, különben a rendszered károsodhat, s nem lesz indítható.
+Sikerült telepíteni a következő Windows 7 indító bőrt: [b]{0}[/b], amit [b]{1}[/b] készített.
+Nem sikerült telepíteni a következő Windows 7 indító bőrt: [b]{0}[/b], amit [b]{1}[/b] készített.\n\n{2}
+A(z) [b]{1}[/b] által készített [b]{0}[/b] Windows 7 indító bőr eltávolításra kész.\n\nHa folytatni akarod, kattints a Tovább gombra.
+A(z) [b]{1}[/b] által készített [b]{0}[/b] indító bőr eltávolítása folyamatban.\n\nEz eltarthat néhány percig.\n\nNe zárd be ezt a programot, különben a rendszered károsodhat, s nem lesz indítható.
+Sikerült eltávolítani a következő Windows 7 indító bőrt: [b]{0}[/b], amit [b]{1}[/b] készített.\n\n{2}
+Nem sikerült eltávolítani a következő Windows 7 indító bőrt: [b]{0}[/b], amit [b]{1}[/b] készített.\n\n{2}\n\n{3}

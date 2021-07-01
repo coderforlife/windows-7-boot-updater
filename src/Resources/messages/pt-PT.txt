@@ -1,0 +1,239 @@
+﻿
+João Rodrigues (F4ever)
+Não foi possível criar o backup de {0}
+O ficheiro {0} não pode ser lido como um ficheiro PE
+O ficheiro {0} não contém os recursos adequados ({1})
+O ficheiro não é {0} de acordo com a informação da versão
+O ficheiro parece-se com {0} não com {1}
+Não foi possível atualizar o recurso WIM no bootres
+Não foi possível atualizar os recursos em {0}
+Não foi possível remover o certificado digital de {0}
+Não foi possível guardar o {0} atualizado
+Não foi possível desativar a segurança de ficheiros do sistema em {0}
+Não foi possível restaurar a segurança de ficheiros do sistema em {0}
+Não foi possível atualizar o texto na tabela da mensagem em {0}
+Não foi possível guardar a animação
+Não foi possível capturar o WIM
+Não foi possível ler o WIM
+Não foi possível atualizar {0} em {1}
+Não foi possível atualizar a fonte do boot em {0}, isto, provavelmente, deve-se ao facto de ser um ficheiro modificado ou de uma atualização recente do Windows Update ter alterado alguma coisa
+Não foi possível atualizar o texto de direitos de autor em {0}, isto, provavelmente, deve-se ao facto de ser um ficheiro modificado ou de uma atualização recente do Windows Update ter alterado alguma coisa
+Não foi possível atualizar as propriedades do texto e do fundo em {0}, isto, provavelmente, deve-se ao facto de ser um ficheiro modificado ou de uma atualização recente do Windows Update ter alterado alguma coisa
+Não foi possível desabilitar a segurança do winload / bootres em {0}, isto, provavelmente, deve-se ao facto de ser um ficheiro modificado ou de uma atualização recente do Windows Update ter alterado alguma coisa
+Não foi possível desabilitar a segurança do bootmgr.exe, isto, provavelmente, deve-se ao facto de ser um ficheiro modificado ou de uma atualização recente do Windows Update ter alterado alguma coisa
+Não foi possível voltar a comprimir o bootmgr.exe
+Não foi possível criar um ficheiro temporário
+Não foi possível criar um diretório temporário
+Não foi possível eliminar um ficheiro temporário
+Houve uma exceção não detetada enquanto os ficheiros estavam a ser atualizados
+Erro desconhecido ({0:X})
+Não foi possível criar um ficheiro ({0:X})
+Erro enquanto se obtinha o caminho de acesso {0}
+
+O caminho de acesso {0} no BCD ou é inválido ou não é ainda um tipo suportado
+O caminho de acesso {0} no BCD é inválido
+O caminho de acesso {0} no BCD faz referência a um ficheiro EFI que não é atualmente suportado
+A máscara de boot não é uma versão compreendida
+A fonte de animação não pode ser 'winload' para winload
+O ficheiro "{0}" não pode ser aberto para escrita
+O ficheiro "{0}" não pode ser validado
+O ficheiro "{0}" não pode ser lido
+Erro ao carregar a máscara de boot "{0}"
+Não foi possível obter os dados da máscara de boot
+Instalador
+Não Foi Possível Carregar o Patch
+A versão do patch é mais recente do que este programa consegue compreender
+Patch desatualizado
+Não foi possível abrir o ficheiro "{0}" como um ficheiro de imagem, os formatos aceitáveis são BMP, PNG, GIF, JPEG, e TIFF
+O diretório "{0}" não pode ser aberto
+O diretório "{0}" não contém nenhum ficheiro de imagem aceitável (BMP, PNG, GIF, JPG, ou TIF)
+Tem de ser um activity.bmp completo ou 105 frames num PNG, BMP, GIF, ou TIF
+A Abrir o Erro da Animação
+A atualizar {0}…
+A finaliar…
+A comprimir a animação…
+A modificar os recursos…
+Sem Erros
+Atualizador do Boot do Windows 7
+S
+s
+
+
+ERRO
+Não foi possível habilitar o privilégio de autoria
+Erro Crítico
+Erro ao Carregar
+Erro ao Guardar
+Opção não reconhecida: {0}
+Erro com {0}
+Houve um problema ao verificar "{0}"
+Selecione um ficheiro diferente
+Vá às "Opções" e selecione um {0} apropriado
+Número errado de argumentos
+Não foi possível encontrar o ficheiro BS7 fornecido: "{0}"
+O ficheiro BS7 fornecido "{0}" é inválido:
+Houve uma exceção não detetada enquanto se atualizavam os ficheiros:
+Houve um problema ao atualizar os ficheiros:
+Exceção ao Atualizar o Boot
+Erro ao Atualizar o Boot
+
+
+Houve um problema ao criar o instalador:
+Erro ao Criar o Instalador
+Erro MCI desconhecido
+Não foi possível abrir a ligação
+Brevemente!
+Os seguintes ficheiros foram encontrados:\n{0}
+Não foram encontrados ficheiros aceitáveis
+Selecione a Pasta do Windows
+Restaurado "{0}" para "{1}"
+Não foram restaurados nenhuns ficheiros
+Restauração de Ficheiros
+Atualização da animação e do texto feita com sucesso!
+Sucesso ao Atualizar o Boot!
+Sobre
+Enviar Máscara de Boot
+Verificação da Versão
+Está a executar a versão mais recente do Atualizador do Boot do Windows 7.
+Não está a executar a versão mais recente do Atualizador do Boot do Windows 7. A versão mais recente é {0}.
+Selecione a Imagem de &Fundo
+Selecione a pasta que contém a animação. 
+Informação da Animação
+Fechar
+Ficheiros de Imagem
+Todos os ficheiros
+Máscara de Boot para o Windows 7
+Pasta {0}, {1}
+Ficheiro {0}, predefinição: {1}
+numa partição do sistema oculta
+Versão da Linha de Comandos
+Utilização
+opções
+ou para restaurar os ficheiros do backup:
+onde as opções estão:
+define tantas opções abaixo como possível
+Pode usar o programa GUI para criar ficheiros BS7
+Versão {0}
+por Jeff Bush
+Visite coderforlife.com/projects/win7boot/ para mais informação
+Verifique coderforlife.com/projects/win7boot/eula/ para a licença deste produto
+[b]Problemas? Bugs? Comentários?[/b] Envie-me um email [jeff@coderforlife.com]
+O meu website: [{0} coderforlife.com]
+Página do Boot do Windows 7: [{0} coderforlife.com/projects/win7boot]
+[b]Gosta deste programa?[/b] [{0} Faça um donativo!]
+[b]Agradecimentos:[/b]
+joakim e marcusj0015 [http://www.sevenforums.com/ sevenforums.com] por toda a contribuição fornecida
+
+Mattahan [http://mattahan.deviantart.com/ mattahan.deviantart.com] pelo logótipo do monitor/pintura
+E todas as pessoas que testaram o programa e deram um feedback fabuloso!
+Traduções
+{0} traduzido por {1}
+Versões
+{0} Base de dados:
+Licença
+
+&Ficheiro
+&Carregar máscara de boot…
+
+&Guardar máscara de boot como…
+Criar &instalador de máscaras de boot…
+&Enviar máscara de boot…
+&Procurar máscaras de boot públicas…
+&Sair
+&Opções
+Selecionar a pasta do Windows…
+&Restaurar backups
+Idioma
+Contribuir com uma tradução…
+&Ajuda
+Sobre…
+Verificar por atualizações…
+Página &web do Atualizador do Boot do Windows 7…
+Fazer donativo…
+A iniciar
+A retomar
+Animação
+O mesmo
+Predefinição
+Imagem Estática
+Animação
+F&undo:
+Método:
+Simples
+Completo
+&Mensagens
+&Quantidade:
+Nenhuma
+1 Mensagem
+2 Mensagens
+Mensagem {0}
+Texto:
+Cor da Fonte:
+Posição:
+Tamanho da Fonte:
+Fundo
+&Aplicar
+Direcionado
+Repetido
+&Ecrã Inteiro
+&Pausa
+&Reproduzir
+
+[Incorporado]
+[Nenhum Selecionado]
+
+Espaço
+Esquerda/Direita
+
+Sair do Ecrã Inteiro
+Reproduzir/Pausar
+Retroceder/Para a Frente 1 Frame
+Primeiro/Último Frame
+Criar Instalador
+Criar um instalador independente com a designada máscara de boot.\nO instalador não necessita de quaisquer bibliotecas externas e funciona em ambas as arquiteturas do Windows 7 (32-bit e 64-bit).\nPode adicionar informação adicional ao instalador. O nome e o autor da máscara são itens requeridos.
+Nome da Máscara:
+Autor da Máscara:
+
+Descrição:
+Licença:
+Criar
+É necessário fornecer o nome e o autor da máscara
+Reproduzir Novamente
+Obter um desafio visual
+Obter um desafio de áudio
+Obter um novo desafio
+Máscara de Boot do Windows 7
+Instalador da Máscara de Boot do Windows 7
+Instalador da Máscara de Boot para o Windows 7
+Isto só pode ser utilizado no Windows 7
+{0} por {1}
+Não foi possível restaurar {0}
+< &Anterior
+&Seguinte >
+&Cancelar
+Eu &Aceito
+&Instalar
+Acordo de Licença
+Por favor reveja os termos de licença antes de instalar a máscara de boot
+Desinstalar o Atual
+Preparado para Instalar
+A Instalar
+Instalado Com Sucesso
+Não foi possível Instalar
+Preparado para Desinstalar
+A Desinstalar
+Desinstalado Com Sucesso
+Não foi possível Desinstalar
+Termos do Atualizador de Boot do Windows 7:
+Os termos para a máscara de boot {0} por {1}:
+Se aceita os termos do(s) acordo(s), clique em "Eu Aceito" para continuar.\nTem de aceitar o(s) acordo(s) para instalar esta Máscara de Boot do Windows 7.
+Este instalador foi gerado usando o [{0} Atualizador de Boot do Windows 7] desenvolvido por [{1} Coder for Life].\n\nClique em "Seguinte" para continuar.
+Uma outra máscara de boot está atualmente instalada. Esta tem de ser completamente desinstalada antes de poder instalar a nova.\n\nA máscara de boot atual é [b]{0}[/b] por [b]{1}[/b].\n\nClique em "Seguinte" para desinstalar a máscara de boot atual.
+Pronto para instalar a máscara de boot do Windows 7 [b]{0}[/b] por [b]{1}[/b].\n\nOs seguintes ficheiros irão ser modificados:\n\n{2}\n\nSe deseja modificar ficheiros diferentes, terá de utilizar ou o gráfico ou a linha de comandos. Verifique [{3} coderforlife.com/projects/win7boot] para mais informação.
+A instalar a máscara de boot [b]{0}[/b] por [b]{1}[/b].\n\nIsto pode demorar alguns minutos.\n\nNão feche este programa ou o seu sistema pode ficar inutilizável.
+A Máscara de Boot do Windows 7 [b]{0}[/b] por [b]{1}[/b] foi instalada com sucesso.
+Não foi possível instalar a Máscara de Boot do Windows 7 [b]{0}[/b] por [b]{1}[/b].\n\n{2}
+Pronto para desinstalar a máscara de boot do Windows 7 [b]{0}[/b] por [b]{1}[/b].\n\nSe deseja continuar, clique em "Seguinte".
+A desinstalar a máscara de boot [b]{0}[/b] por [b]{1}[/b].\n\nIsto pode demorar alguns minutos.\n\nNão feche este programa ou o seu sistema pode ficar inutilizável.
+A Máscara de Boot do Windows 7 [b]{0}[/b] por [b]{1}[/b] foi desinstalada com sucesso.\n\n{2}
+Não foi possível desinstalar a Máscara de Boot do Windows 7 [b]{0}[/b] por [b]{1}[/b].\n\n{2}\n\n{3}

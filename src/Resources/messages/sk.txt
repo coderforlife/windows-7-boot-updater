@@ -1,0 +1,239 @@
+﻿
+Kangarko [kangaro.matej@azet.sk]
+Nepodarilo sa vytvoriť zálohu {0}
+Súbor {0} sa nedá čítať ako súbor PE
+Súbor {0} neobsahuje správne zdroje. ({1})
+Súbor {0} nie je podľa jeho informácie o verzii
+Súbor vyzerá ako {0} nie ako {1} .
+Aktualizácia WIM súborov zlyhala
+Aktualizácia súborov bez {0} zlyhala
+Odstránenie digitálnych certifikátov z {0} zlyhalo.
+Zlyhalo ukladanie {0}
+Deaktivácia súborového systému zlyhala na {0}
+Obnovenie súborového systému zlyhala na {0}
+Aktualizácia správy v tabuľke zlyhala v {0}
+Ukladanie animácie zlyhalo!
+Natáčanie WIM zlyhalo
+Čítanie WIM zlyhalo
+Zlyhala aktualizácia {0} v {1}
+Zlyhalo aktualizovať font v {0}. Toto je pravdepodobne kvôli tomu, že máte upravený súbor alebo Windows Update nedávno zmenilo niečo vo windowse.
+Zlyhalo aktualizovať copyright text v {0}.Toto je pravdepodobne kvôli tomu, že máte upravený súbor alebo Windows Update nedávno zmenilo niečo vo windowse.
+Zlyhalo aktualizovať text a pozadie nastavení v {0}. Toto je pravdepodobne kvôli tomu, že máte upravený súbor alebo Windows Update nedávno zmenilo niečo vo windowse.
+Zlyhanie pri vypínaní bootres / winload bezpečnosti v {0}. Toto je pravdepodobne kvôli tomu, že máte upravený súbor alebo Windows Update nedávno zmenilo niečo vo windowse.
+Zlyhanie pri vypínaní bootmgr.exe bezpečnosti. Toto je pravdepodobne kvôli tomu, že máte upravený súbor alebo Windows Update nedávno zmenilo niečo vo windowse.
+Chyba pri kompresii bootmgr.exe
+Nepodarilo sa vytvoriť dočasný súbor
+Nepodarilo sa vytvoriť dočasný adresár
+Nepodarilo sa vymazať dočasný adresár (temp)
+Nezahrnutá výnimka pri aktualizácii súborov
+Neznáma chyba ({0:X})
+
+chyba prii získavaní {0} Patchu
+
+
+
+
+Boot skin nieje chápaný súbor.
+Animácia zdroja nemôže byť "Winload" pre Winload
+Súbor '{0}' nemožno otvoriť pre zápis
+Súbor '{0}' nemohol byť overená
+Súbor '{0}' nebolo možné prečítať
+Chyba načítania  '{0}'
+Zlyhanie to get boot skin data
+Inštalátor
+Načítavanie Zlyhalo
+
+Patch je zastaralý
+Súbor '{0}' sa nedá otvoriť ako obrazový, prijateľné formáty sú BMP, PNG, GIF, JPEG a TIFF.
+Priečinok '{0}' sa nedá otvoriť
+Priečinok '{0}' neobsahuje žiadne prijateľné súbory (BMP, PNG, GIF, JPG, or TIF)
+To musí byť úplná animácia v BMP alebo 105 snímok vo formáte PNG, BMP, GIF a TIF.
+Otvorenie animácie zlyhalo
+Aktualizujem {0}…
+Dokončuje sa ...
+Kompresia animácie ...
+Úpravujem súbory...
+Žiadna chyba
+
+
+
+
+
+CHYBA
+Zlyhanie to enable the take ownership privilege
+Kritická chyba
+Chyba pri načítavaní
+chyba pri ukladaní
+Nerozpoznaná možnosť: {0}
+Chyba z {0}
+Tu bol problém overujúci '{0}'
+Vyberte iný súbor
+Choď do "Možností" a vyberte príslušný {0}
+Nesprávny počet argumentov
+
+
+Nezahrnuté výnimky pri aktualizácii súborov:
+Problém s aktualizáciou súborov:
+Boot Update výnimka
+Boot Update chyba
+
+
+Problém bráni vytvoreniu inštalátora...
+Chyba s inštalátorom
+Neznáma MCI chyba
+Nepodarilo sa otvoriť odkaz
+Už čoskoro!
+Boli nájdené nasledujúce súbory:\n{0}
+Žiadne prijateľné súbory neboli nájdené
+Vyberte zložku Windows
+Obnovené '{0}' do '{1}'
+Žiadne súbory neboli obnovené
+Obnova súborov
+Úspešne ste zmenili boot animáciu a text!
+Zmeny boli aplikované!
+O
+Uploadovať Boot Skin
+Kontrola najnovšej verzie
+Máte najnovšiu verziu Windows 7 Boot Updater!
+Je dostupná nová verzia Windows 7 Boot Updater! Je to verzia: {0}.
+Vyberte obrázok po&zadia
+Vyberte zložku v ktorej je animácia
+Info o animácii
+Zavrieť
+Obrázky
+Všetky súbory
+Boot Skin pre Windows 7
+{0} zložka, {1}
+{0} súbor, východzí: {1}
+na skrytej sys. partícii
+CMD verzia
+Používanie
+nastavenia
+alebo obnovenie záloh:
+Kde sú nastavenia?:
+Nastavte najviac z nasledujúcich možností.
+Môžete použiť GUI program pre vytváranie súborov BS7.
+Verzia {0}
+
+navštívte coderforlife.com/projects/win7boot/ pre viac informácií
+navštívte coderforlife.com/projects/win7boot/eula/ pre zobrazenie licencie
+[b]Problémy? Chyby? Komentáre?[/b] Napíšte email- [jeff@coderforlife.com]
+Moja stránka: [{0} coderforlife.com]
+Stránka programu: [{0} coderforlife.com/projects/win7boot]
+[b]Páči sa vám program?[/b] [{0} Prispejte na chod!]
+[b]Poďakovania:[/b]
+joakim and marcusj0015 at [http://www.sevenforums.com/ sevenforums.com] pre všetky ich práce
+
+Mattahan at [http://mattahan.deviantart.com/ mattahan.deviantart.com] za monitor/painting logo
+Ďakujem všetkým ktorý program testovali a pomohli ho zlepšiť.
+Preklady
+{0} preložil {1}
+Verzie
+{0} Databáza:
+Licencia
+
+&Súbor
+&Otvoriť skin
+
+&Uložit skin ako…
+&Vytvoriť inštalátor boot skinu…
+&Nahrať boot skin…
+&Boot skins na webe…
+K&oniec
+&Nastavenia
+Vyberte zložku "Windows"…
+&Obnoviť zálohu
+Jazyk
+Vytvoriť preklad…
+&Pomoc
+O programe…
+Aktualizácie…
+& Stránka programu…
+Prispieť…
+Bootovanie
+Obnovovanie zo spánku
+Animácia
+Rovnaká
+Východzie
+Statický obr.
+Animácia
+Poza&die:
+Metóda:
+Štandard
+Kompletná
+&Texty počas bootovania
+&Počet:
+Žiadne
+1 text
+2 texty
+Text {0}
+
+Farba písma:
+Umiestnenie:
+Veľkosť písma:
+Pozadie
+&Aplikovať!
+Začiatok animácie
+Fáza opakovania
+&Celá obr.
+&Pauza
+&Hrať
+Snímok
+[Vložený]
+[Nič nevybraté]
+
+Medzerník
+VĽavo/Vpravo
+Domov/Koniec
+Koniec Celá obr.
+Hrať/Pauza
+Späť/Naspäť 1 snímok
+Prvý/Posledný snímok
+Vytvoriť inštalátor
+Vytvoriť štandardný inštalátor z boot skinom.\nInštalácia vyžaduje, žiadny vonkajší knižníc a pracuje v 32-bit a 64-bit Windows 7.\nMôžete pridať ďaľšie informácie.Názov a autor skinu sú povinné.
+Meno skinu:
+Autor skinu:
+
+Popis:
+Licencia:
+Vytvoriť
+Je potrebné zadať názov a autora skin-u
+Hrať znova
+Získať vizuálnu výzvu
+Získať audio výzvu
+Získať novú výzvu
+
+Windows 7 Boot Skin Inštalátor
+Boot Skin Inštalátor pre Windows 7
+Tento program je pre Win 7
+{0} od {1}
+Obnovenie zlyhalo {0}
+< &Späť
+&Ďalej >
+&Zrušiť
+&Súhlasím
+&Inštalovať
+Licenčné podmienky
+Pred nainštalovaním programu si prezrite licenčné podmienky
+Odinštalovanie Aktuálny
+Pripravené inštalovať
+Inštalovanie
+Úspešne nainštalované
+Inštalovanie zlyhalo
+Pripravené odinštalovať
+Odoberanie zo systému...
+Odinštalovanie úspešné
+Odinštalovanie zlyhalo!
+Windows 7 Boot Updater podmienky:
+Podmienky pre {0} boot skin vyrobil {1}:
+Ak súhlasíte z podmienkami, kliknite na  'Súhlasím' Pre pokračovanie.\nPre nainštalovanie programu musíte s podmienkami súhlasiť.
+This installer was generated using [{0} Windows 7 Boot Updater] developed by [{1} Coder for Life].\n\nKliknite na ďalej pre pokračovanie.
+Ďalšie Boot Skin je už nainštalovaný. Musíte ho najprv odstrániť.\n\nAktuálny boot skin je [b]{0}[/b] by [b]{1}[/b].\n\nKliknite "Ďalej" pre odinštalovanie aktuálneho boot skin-u.
+Pripravené inštalovať  Windows 7 boot skin [b]{0}[/b] by [b]{1}[/b].\n\nNasledujúce súbory sa zmenia:\n\n{2}\n\nAk chcete zmeniť iné súbory, budete musieť použiť príkazový riadok programu. Navštívte [{3} coderforlife.com/projects/win7boot] pre viac informácií.
+Inštaluje sa boot skin [b]{0}[/b] by [b]{1}[/b].\n\nThis may take a few minutes.\n\nDo not close this program or your system may become unbootable.
+Windows 7 Boot Skin bol odinštalovaný [b]{0}[/b] by [b]{1}[/b].
+Zlyhanie inštalácie Windows 7 Boot Skin [b]{0}[/b] by [b]{1}[/b].\n\n{2}
+Pripravené odinštalovať Windows 7 boot skin [b]{0}[/b] by [b]{1}[/b].\n\nIf you wish to continue, click Next.
+Odinštalovávam boot skin [b]{0}[/b] by [b]{1}[/b].\n\nToto zaberie pár minút.\n\nZatvorením programu znefunkčníte boot systému!
+Windows 7 Boot Skin bol odinštalovaný [b]{0}[/b] od [b]{1}[/b].\n\n{2}
+Zlyhanie odinštalovanie Boot Updater-u [b]{0}[/b] od [b]{1}[/b].\n\n{2}\n\n{3}

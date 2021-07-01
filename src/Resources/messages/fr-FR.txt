@@ -1,0 +1,239 @@
+﻿
+Kekel alias LeCardinal, [LeCardinal@ymail.com]
+Impossible de créer une sauvegarde de {0}
+Le fichier {0} ne peut être lu comme un fichier PE
+Le fichier {0} ne contient pas les ressources nécessaires ({1})
+Le fichier {0} n'est pas en conformité avec ses informations de version
+Le fichier ressemble à {0} {1}
+Mise à jour WIM échoué dans le bootres
+La mise à jour des ressources "{0}" a échoué
+Impossible de supprimer le certificat numérique à partir de "{0}"
+Impossible d'enregistrer la mise à jour {0}
+Impossible de désactiver la protection du système de fichiers {0} 
+Impossible de restaurer la sécurité du système de fichiers dans {0} 
+Impossible de mettre à jour le texte de la table des messages à {0}
+Impossible d'enregistrer l'animation
+Impossible de capturer le WIM
+Impossible de lire le WIM
+Impossible de mettre à jour {0} dans {1}
+Impossible de mettre à jour la police de démarrage dans {0}, cela est probablement dû au fait que le fichier a été modifié ou à une récente mise à jour de Windows qui a changé quelque chose
+Impossible de mettre à jour le texte du droit d'auteur dans {0}, cela est probablement dû au fait que le fichier a été modifié ou à une récente mise à jour de Windows qui a changé quelque chose
+Échec de la mise à jour du texte et des propriétés de fond dans {0}, cela est probablement dû au fait que le fichier a été modifié ou à une récente mise à jour de Windows qui a changé quelque chose
+Impossible de désactiver les paramètres de sécurité de bootres/WinLoad dans "{0}", cela est probablement dû au fait que le fichier a été modifié ou à une récente mise à jour de Windows qui a changé quelque chose
+Impossible de désactiver les paramètres de sécurité de Bootmgr.exe, cela est probablement dû au fait que le fichier a été modifié ou à une récente mise à jour de Windows qui a changé quelque chose
+Impossible de re-compresser Bootmgr.exe 
+Impossible de créer un fichier temporaire
+Impossible de créer un dossier temporaire
+Impossible de supprimer un fichier temporaire
+Une exception inattendue s'est produite lors de la mise à jour des fichiers 
+Erreur inconnue ({0:X})
+Impossible de créer un fichier ({0:X}) 
+Erreur lors de l'obtention du chemin d'accès de {0}
+
+Le chemin d'accès {0} dans la CDB n'est pas valide ou n'est pas supporté 
+Le chemin d'accès {0} dans le BCD n'est pas valide
+Le chemin d'accès {0} d'un fichier EFI n'est actuellement pas prit en charge dans les références d'un fichier BCD
+Le bootskin est d'une version inconnue
+La source d'animation ne peut pas être 'WinLoad' pour WinLoad
+Le fichier "{0}" n'a pas pu être ouvert en écriture 
+Le fichier "{0}" n'a pas pu être validé
+Le fichier "{0}" n'a pas pu être lu
+Erreur lors du chargement du bootskin "{0}"
+Impossible d'obtenir les données du bootskin
+Installateur
+Le chargement du patch a échoué
+La version du patch est plus récente que celle supportée par le programme
+Le Patch est obsolète 
+Impossible d'ouvrir le fichier "{0}" comme un fichier graphique, les formats supportés sont BMP, PNG, GIF, JPEG et TIFF
+Le dossier "{0}" n'a pas pu être ouvert
+Le dossier "{0}" ne contient aucun fichier graphique supporté (BMP, PNG, GIF, JPEG ou TIFF)
+C'est à dire un dossier contenant "activity.bmp" ou 105 fichiers au format BMP, PNG, GIF, JPEG ou TIFF.
+Erreur à l'ouverture de l'animation 
+Mise à jour {0}…
+Terminé…
+Compression de l'animation…
+Modification des ressources…
+Pas d'erreur
+
+O
+o
+
+
+ERREUR
+Impossible de prendre possession des propriétés
+Erreur critique
+Erreur de chargement
+Erreur d'enregistrement 
+Option non reconnue {0}
+Erreur avec {0}
+Il y a eu un problème, vérifiez "{0}"
+Choisissez un autre fichier 
+Allez dans les Options et sélectionnez un(e) {0} approprié(e)
+Nombre d'arguments incorrect
+Impossible de trouver le fichier de donnée BS7: "{0}"
+Le fichier BS7 fourni "{0}" n'est pas valide
+Il y a eu une exception inconnue durant la mise à jour
+Il y a eu un problème durant la mise à jour des fichiers
+Exception durant la mise à jour du boot
+Erreur durant la mise à jour du boot
+
+
+Il y a eu une erreur durant la création de l'installateur 
+Erreur lors de la création de l'installateur
+Erreur MCI inconnue
+Impossible d'ouvrir le lien
+Bientôt disponible! 
+Les fichiers suivants ont été trouvé:\n{0}
+Aucun fichier supporté n'a été trouvé
+Sélectionnez le dossier de Windows
+"{0}" a été restauré en "{1}"
+Aucun fichier restauré
+Restauration de fichiers
+Mise à jour de l'animation et du texte de démarrage réussie
+Mise à jour du démarrage réussie
+A propos
+Envoie du bootskin
+Vérification de la version
+Vous utilisez la dernière version de Windows 7 Boot Updater
+Vous n'utilisez pas la dernière version de Windows 7 Boot Updater, la dernière version est {0}
+Sélectionnez l'image de fond 
+Sélectionnez le dossier de l'animation.
+Information sur l'animation
+Fermer
+Fichiers image
+Tous les fichiers
+Bootkin pour Windows 7
+Dossier {0}, {1}
+Fichier {0}, par défaut: {1}
+dans la partition système cachée 
+Version ligne de commande
+Utilisation
+
+ou pour restaurer les fichiers de sauvegarde: 
+Lorsque les options sont:
+définit, si possible, la plupart des options ci-dessous
+Vous pouvez utiliser le programme graphique pour créer des fichiers BS7
+
+par Jeff Bush
+Visitez coderforlife.com/projects/win7boot pour plus d'informations
+Voir coderforlife.com/projects/win7boot/eula pour obtenir la licences de ce produit
+[b]Problèmes, erreurs ou commentaires? [/b] Contactez-moi par e-mail [jeff@coderforlife.com] 
+Ma page d'accueil: [{0} coderforlife.com]
+Page de Windows 7 Boot Updater: [{0} coderforlife.com/projects/win7boot]
+[b]Vous aimez ce programme? [/b] [{0} Faites un don!] 
+[b]Merci à: [/b]
+Joakim et Marcusj0015 à [http://www.sevenforums.com sevenforums.com] pour leur aide
+
+Mattahan à [http://mattahan.deviantart.com/mattahan.deviantart.com] pour le logo
+Et toutes les personnes qui ont testé le programme!
+Traductions
+{0} traduit par {1}
+
+Base de données: {0}
+Licence
+
+&Fichier
+&Ouvrir un bootskin…
+
+En&registrer sous…
+&Créer l'installateur du bootskin…
+&Partager le bootskin…
+&Télécharger un bootskin partagés…
+&Quitter
+
+Sélectionner le &dossier Windows…
+&Restaurer les sauvegardes
+&Langue
+Contribuer à une traduction…
+&Aide
+A &propos de…
+Vérifier les &mises à jour…
+Page &Web de Windows 7 Boot Updater…
+Faire un &don…
+Démarrage
+Arrêt
+
+La même
+Par défaut
+Image fixe 
+
+Fond:
+Méthode:
+
+Complète 
+
+&Compteur
+Aucun
+1 message
+2 messages
+
+Texte:
+Couleur de police:
+
+Taille de police:
+Fond
+Appli&quer
+Début
+Boucle
+Plein &écran
+
+&Lecture
+Image
+[Incorporé]
+[Aucune sélection]
+
+Espace
+Gauche/Droite
+Début/Fin
+Quitter le plein écran
+Lecture/Pause
+Précédent/Suivant 1 image
+Première/Dernière image
+Créer Installateur
+Créer un installateur de bootskin autonome.\nCe programme d'installation ne nécessite aucun fichier supplémentaire et fonctionne avec Windows 7 32 bits && 64 bits.\nVous pouvez ajouter des informations complémentaires à l'installateur. Le nom et l'auteur sont obligatoire.
+Nom du bootskin:
+Auteur:
+
+
+Licence:
+Créer
+Vous devez fournir un nom et auteur pour le bootskin
+Relecture 
+Obtenir un défi visuel
+Obtenir un défi audio
+Obtenir un nouveau défi
+
+Installateur Windows 7 Boot Skin
+Installateur de bootskin pour Windows 7
+Ceci peut être utilisé uniquement sous Windows 7 
+{0} par {1}
+Impossible de restaurer {0}
+<&Retour
+&Suivant>
+&Annuler
+&J'accepte
+&Installer
+Contrat de licence
+S'il vous plaît, examinez les termes de la licence avant d'installer le bootskin
+Désinstaller l'actuel
+Prêt pour l'installation
+Installation
+Installé avec succès
+Échec de l'installation
+Prêt à désinstaller
+Désinstallation
+Désinstallé avec succès
+Échec de la désinstallation
+Les conditions de Windows 7 Boot Updater:
+Les conditions pour le bootskin {0} par {1}:
+Si vous acceptez les termes de la licence, cliquez sur "J'accepte" pour continuer.\nVous devez accepter le contrat pour installer ce bootskin.
+Ce programme d'installation a été généré en utilisant le [{0} Windows 7 Boot Updater] développé par [{1} Coder for Life].\n\nCliquez sur Suivant pour continuer.
+Un autre thème de démarrage est déjà installé. Il doit être complètement désinstallé avant d'en installer un autre.\n\nLe bootskin actuel est [b] {0} [/b] par [b] {1} [/b].\n\nCliquez sur Suivant pour désinstaller bootskin actuel.
+Prêt à installer le bootskin [b] {0} [/b] par [b] {1} [/b]\n\nLes fichiers suivants seront modifiés:\n\n {2}\n\nSi vous souhaitez modifier d'autres fichiers, vous devrez utiliser le programme graphique ou ligne de commande. Lire la suite [{3} coderforlife.com/projects/win7boot] pour plus d'informations.
+Installation du bootskin [b] {0} [/b] par [b] {1} [/b].\n\nCeci peut prendre quelques minutes.\n\nNe fermez pas ce programme sinon le système pourrait devenir instable.
+Le bootskin a été installé avec succès [b] {0} [/b] par [b] {1} [/b].
+Impossible d'installer le bootskin pour Windows 7 [b] {0} [/b] par [b] {1} [/b].\n\n {2}
+Prêt à désinstaller le bootskin pour Windows 7 [b] {0} [/b] par [b] {1} [/b].\n\nSi vous souhaitez continuer, cliquez sur Suivant.
+Désinstallation du bootskin [b] {0} [/b] par [b] {1} [/b].\n\nCeci peut prendre quelques minutes.\n\nNe fermez pas ce programme sinon le système pourrait devenir instable.
+Bootskin désinstallé avec succès [b] {0} [/b] par [b] {1} [/b].\n\n {2}
+Impossible de désinstaller le bootskin [b] {0} [/b] par [b] {1} [/b].\n\n {2}\n\n {3}

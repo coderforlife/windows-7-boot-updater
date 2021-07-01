@@ -1,0 +1,239 @@
+﻿
+•JOHNY• Pozdrawiam użytkowników z Polski. [janekg16@gmail.co]
+Nie udało się utworzyć kopii zapasowej {0}
+{0} -  Plik nie może być odczytany jako plik PE
+{0} -  Plik nie zawiera odpowiednich zasobów ({1})
+Plik nie został {0} zgodnie z jej informacjami o wersji
+Plik prawdopodobnie {0} nie {1}
+Nie można zaktualizować zasobu WIM w bootres
+Nie można zaktualizować zasobów w {0}
+Nie udało się usunąć certyfikat cyfrowy z {0}
+Nie udało się zapisać zaktualizowany {0}
+Nie można wyłączyć zabezpieczenia plików dla {0}
+Nie można przywrócić plików zabezpieczeń dla {0}
+Nie można zaktualizować wiadomości tabeli tekstowej w  {0}
+Nie udało się zapisać animacji
+Nie udało się przechwycić obrazu WIM
+Nie można odczytać obrazu WIM
+Nie można zaktualizować {0} w {1}
+Nie można zaktualizować czcionki rozruchu w {0}, jest to prawdopodobnie spowodowane przez zmodyfikowany plik lub przez zmiany w Windows Update
+Nie można zaktualizować tekstu autorskiego w {0}, jest to prawdopodobnie spowodowane przez zmodyfikowany plik lub przez zmiany w Windows Update
+Nie można zaktualizować tekstu oraz właściwości tła w {0}, jest to prawdopodobnie spowodowane przez zmodyfikowany plik lub przez zmiany w Windows Update
+Nie udało się wyłączyć bootres / security WinLoad w {0}, jest to prawdopodobnie spowodowane przez zmodyfikowany plik lub przez zmiany w Windows Update
+Nie udało się wyłączyć zabezpieczenia bootmgr.exe, jest to prawdopodobnie spowodowane przez zmodyfikowany plik lub przez zmiany w Windows Update
+Nie udało się ponownie skompresować bootmgr.exe
+Nie udało się utworzyć pliku tymczasowego
+Nie udało się utworzyć katalogu tymczasowego
+Nie udało się usunąć pliku tymczasowego
+Zaistniał nieprzechwycony wyjątek podczas aktualizacji plików
+Nieznany błąd ({0:X})
+Tworzenie pliku nie powiodło się ({0:X})
+Błąd przy pobieraniu {0} ścieżki
+
+{0} ścieżki w BCD są nieprawidłowe lub nie jest jeszcze obsługiwany typ
+{0} ścieżka w BCD jest nieprawidłowa
+{0} ścieżka w odnośnikach BCD EFI pliku, nie jest obecnie obsługiwany
+BCD nie rozpoznaje wersji boot skina
+Źródło animacji nie może być dodane do WinLoad
+Plik '{0}' nie mógł być otwarty do zapisywania
+Plik '{0}' nie mógł zostać zatwierdzony
+Plik '{0}' nie może zostać odczytany
+Podczas ładowania boot skina wystąpił następujący błąd '{0}'
+Nie udało się pobrać danych z boot skina
+Instalator
+Nie można załadować Patcha
+Wersja Patcha jest nowsza niż ta którą ten program może odczytać
+Ten Patch jest nie aktualny
+Nie można otworzyć pliku '{0}' jako pliku obrazu, dopuszczalne formaty to BMP, PNG, GIF, JPEG i TIFF
+Katalog '{0}' nie można otworzyć
+Katalog '{0} "nie zawiera żadnych dopuszczalnych plików graficznych (BMP, PNG, GIF, JPG lub TIF)
+Musi zostać użyty plik activity.bmp ze wszystkimi klatkami lub 105 klatek w PNG, BMP, GIF, TIF 
+Błąd otwarcia animacji
+Aktualizacja {0} ...
+Kończenie ...
+Kompresowanie animacji ...
+Modyfikacja zasobów ...
+nie ma błędu
+
+T
+t
+
+
+BŁĄD
+Nie można włączyć się przywilejów prawa własności
+Krytyczny Błąd
+Błąd wczytywania
+Błąd zapisu
+Nierozpoznana opcja: {0}
+Błąd z {0}
+Istnieje problem z weryfikacją '{0} "
+Wybierz inny plik
+Idź do "Opcji" i wybierz odpowiedni {0}
+Niewłaściwa liczba argumentów
+Nie można odnaleźć danego BS7 pliku: '{0}'
+Dany plik BS7 '{0}' jest nieprawidłowy
+Nieprzewidziany wyjątek podczas aktualizacji plików:
+Wystąpił problem podczas aktualizacji plików:
+Wyjątek aktualizacji bootowania 
+Błąd aktualizacji bootowania 
+
+
+Wystąpił problem podczas tworzenia instalatora:
+Błąd podczas tworzenie  instalatora
+Nieznany błąd MCI
+Nie udało się otworzyć linku
+Już wkrótce!
+Następujące pliki zostały znalezione: \ n {0}
+Pliki nie do zaakceptowania zostały znalezione
+Wybierz Folder Windows
+Przywrócony '{0}' do '{1}'
+Żadne pliki nie zostały przywrócone
+Przywracanie plików
+Została pomyślnie zaktualizowana animacja rozruchu i tekstu!
+Aktualizacja się powiodła !
+O mnie
+Wyślij Swój boot skin
+Sprawdź wersje
+Używasz najnowsza wersje Windows 7 Boot Updater®
+Nie używasz najnowszej wersji Windows 7 Boot Updater®. Najnowsza wersja to {0}.
+Wybierz obrazek tła
+Wybierz folder, który zawiera animację.
+Informacje o animacji
+Zamknij
+Obrazy plików
+Wszystkie pliki
+Boot Skiny dla Windows 7
+
+{0} Plik, domyślny: {1}
+na ukrytej partycji systemu
+Wersja do wiersza poleceń
+Użycie
+Opcje
+lub w celu przywrócenia kopii zapasowej plików:
+Gdzie są opcje:
+ustaw jak najwiecej opcji poniżej
+Możesz użyć GUI program do tworzenia plików BS7
+Wersja {0}
+
+Odwiedź coderforlife.com/projects/win7boot/ aby uzyskać więcej informacji
+Zobacz coderforlife.com/projects/win7boot/eula/ aby zobaczyć licencję programu
+[b]Problemy? Bugi? Komentarze?[/b] Napisz do mnie [jeff@coderforlife.com]
+Strona główna: [0} coderforlife.com]
+Strona Windows 7 Boot Updater : [{0} coderforlife.com/projects/win7boot]
+[b]Lubisz ten program?[/b] [{0} Wspomóż ten projekt!]
+[b]Podziękowania dla:[/b]
+joakim oraz marcusj0015 z [http://www.sevenforums.com/ sevenforums.com] za cały ich wkład
+
+Mattahan z [http://mattahan.deviantart.com/ mattahan.deviantart.com] za monitor/stworzenie loga
+I wszystkich ludzi, którzy testowali program i dali wspaniałe opinie!
+Tłumaczenia
+{0} przetłumaczone przez {1}
+Wersje
+{0} Baza danych:
+Licencja
+
+&Plik
+&Załaduj boot skin…
+
+&Zapisz boot skin jako…
+&Stwórz instalkę boot skin…
+&Wyślij boot skin…
+&Przeglądaj publiczne boot skiny…
+&Wyjdź
+&Opcje
+Wybierz folder 'Windows' …
+&Przywróć kopie zapasową
+Język
+Przyczyń się do tłumaczenia…
+&Pomoc
+O Mnie…
+Sprawdź czy jest nowa wersja…
+&Strona Windows 7 Boot Updater …
+Wspomóż projekt…
+Botowanie
+Wznawianie
+Animacja
+Identyczny
+Domyślny
+Nieruchomy obraz
+Animacja
+Tło:
+Metoda:
+Prosty
+Zakończyć
+&Wiadomości
+&Liczyć:
+Żaden
+1 Wiadomość
+2 Wiadomości
+Wiadomość {0}
+Tekst:
+Kolor tekstu:
+Pozycja:
+Wielkość tekstu:
+Tło
+&Zastosuj
+Prosto
+Pętla
+&Pełny Ekran
+&Pauza
+&Odtwórz
+Klatka
+[Wbudowany]
+[Nie Wybrana]
+
+Spacja
+Lewa/Prawa
+Początek/Koniec
+Wyjdź z Pełnego ekranu
+Włącz/Pauza
+Do tyłu o/Do przodu o 1 Klatkę
+Pierwsza/Ostatnia Klatka
+Stwórz Instalator
+Stwórz samodzielnego instalatora wraz z  zaprojektowanym boot skinem. \ Instalator nie wymaga żadnych zewnętrznych bibliotek i pracuje w 32-bit i 64-bitowych Windows 7. \ Możesz dodać dodatkowe informacje do instalatora. Nazwa boot skina oraz autor są wymagane.
+Nazwa Boot skina:
+Autor Boot skina:
+Strona:
+Opis:
+Licencja:
+Stwórz
+Należy podać nazwę i autora dla boot skina
+Odtwórz ponownie
+Uzyskaj wizualne wyzwanie
+Uzyskaj wyzwanie audio
+Zdobądź nowe wyzwanie
+
+Instalator Windows 7 Boot Skin 
+Instalator Boot Skin dla Windows 7
+Może być użyty tylko w Windows 7
+{0} przez {1}
+Nie udało się przywrócić {0}
+&< Powrót
+&Następny >
+&Przerwij
+&Zgadzam się
+&Instaluj
+Umowa licencyjna
+Prosimy o zapoznanie się z warunkami licencji przed instalacją boot skina
+Odinstaluj bieżący
+Gotowy do instalacji
+Instalacja
+Pomyślnie Zainstalowany
+Nie można zainstalować
+Gotowy do usunięcia
+Odinstalowywanie
+Pomyślnie Odinstalowany
+Nie udało się odinstalować
+Warunki Windows 7 Boot Updater :
+Warunki dla {0} boot skin  {1}:
+Jeśli chcesz akceptować warunki umowy (-ów), kliknij przycisk "I Agree/Zgadzam się", aby kontynuować. \ N musisz zaakceptować umowę (i), aby zainstalować ten Windows 7 boot skin.
+Ten instalator został wygenerowany za pomocą [{0} Windows 7 bootowania Updater] opracowany przez [{1} Coder dla Życia]. \n\n Kliknij Dalej. 
+Innym boot skin jest już zainstalowany. Należy całkowicie odinstalować tamten zanim nowy będzie mógł być zainstalowany. \n\n Obecny boot screen [b] {0} [/ b] przez [b] {1} [/ b]. \n\n Kliknij Następny/Next aby odinstalować obecny boot skin.
+Gotowy do instalacji Windows 7 boot skin [b] {0} [/b] przez [b] {1} [/b] \n\n Następujące pliki zostaną zmienione:. \N\n {2} \n\n Jeśli chcesz zmodyfikować różne pliki, musisz użyć polecenia programu graficznego lub wersji z wiersza poleceń. Zobacz [{3} coderforlife.com/projects/win7boot] aby uzyskać więcej informacji.
+Instalacja boot skin [b]{0}[/b] przez [b]{1}[/b].\n\nMoże potrwać kilka minut.\n\nNie zamykaj tego programu lub systemu.
+Pomyślnie zainstalowany Windows 7 Boot Skin [b]{0}[/b] przez [b]{1}[/b].
+Nieudana instalacja Windows 7 Boot Skin [b]{0}[/b] by [b]{1}[/b].\n\n{2}
+Gotowy do odinstalowania Windows 7 boot skin [b]{0}[/b] przez [b]{1}[/b].\n\n Jeśli chcesz kontynuować naciśnij next/dalej
+Odinstalowywanie boot skin [b]{0}[/b] przez [b]{1}[/b].\n\nMoże potrwać kilka minut.\n\nNie zamykaj tego programu lub systemu może stać się nie możliwym do uruchomienia.
+Pomyślnie odinstalowano Windows 7 Boot Skin [b]{0}[/b] przez [b]{1}[/b].\n\n{2}
+Nieudane odinstalowywanie Windows 7 Boot Skin [b]{0}[/b] przez [b]{1}[/b].\n\n{2}\n\n{3}

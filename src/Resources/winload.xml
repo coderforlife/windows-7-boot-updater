@@ -1,0 +1,253 @@
+<!--
+Windows 7 Boot Updater (github.com/coderforlife/windows-7-boot-updater)
+Copyright (C) 2021  Jeffrey Bush - Coder for Life
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Messages font face: (some international fonts have ttc extension)
+L"\fonts\segoeui.ttf"		  .rdata
+
+Alignment (XX = 03 for center, 05 for left, and 09 for right)
+32: C7 43 30 03 00 00 00		C7 43 30 XX 00 00 00 (untested) .text
+64: ??
+  -->
+<Patch version="1.0">
+  <Version name="7 RTM" value="6.1.7600.16385" />
+  <Version name="7 RTM + KB2506014" value="6.1.7600.16757" /><!-- 64-bit winload/winresume only -->
+  <Version name="7 SP1" value="6.1.7601.16537" />
+  <Version name="7 SP1 + KB2506014" value="6.1.7601.17556" /><!-- 64-bit winload/winresume only -->
+  <Version name="WES7 SP1" value="6.1.7601.17832" /><!-- only seen 64-bit winload/winresume so far -->
+  <Version name="7 SP1 + KB2949927" value="6.1.7601.18519" /><!-- SP1 only from now on -->
+  <Version name="7 SP1 + KB3033929" value="6.1.7601.18649" />
+  <Version name="7 SP1 + KB3146706" value="6.1.7601.23207" />
+  <Version name="7 SP1 + KB4012212" value="6.1.7601.23569" />
+  <Version name="7 SP1 + KB4457144" value="6.1.7601.24149" />
+  <Entry id="1">
+    <!-- Allow unsigned bootres.dll -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+          <Target>68 70 08 00 00 6A 00</Target>
+          <Value >68 40 08 00 00 6A 00</Value>
+        </PatchDirect>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+          <Target>C7 44 24 40 70 08 00 00</Target>
+          <Value >C7 44 24 40 40 08 00 00</Value>
+        </PatchDirect>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="2">
+    <!-- Allow unsigned bootres.dll.mui -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+          <Target>68 70 08 00 00 68 00</Target>
+          <Value >68 40 08 00 00 68 00</Value>
+        </PatchDirect>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+          <Target>C7 44 24 40 70 08 00 00</Target>
+          <Value >C7 44 24 40 40 08 00 00</Value>
+        </PatchDirect>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="3">
+    <!-- Allow unsigned winload.exe.mui -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+          <Target>6A 30 58 53 0D 01 05 00 00</Target>
+          <Value >6A 00 58 53 0D 01 05 00 00</Value>
+        </PatchDirect>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchDirect>
+          <Section>.text</Section>
+          <Target>83 E0 30 0D 01 05 00 00</Target>
+          <Value >83 E0 00 0D 01 05 00 00</Value>
+        </PatchDirect>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="4">
+    <!-- Message Background Color -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>B8 [?? ?? ?? ??] 50 8B 45 FC</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>4C 8B 64 24 20 BA [?? ?? ?? ??] 49 8B CC</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="5">
+    <!-- Text 1 (Copyright) -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchString>
+          <Section>.text</Section>
+          <Target>8B 7D FC 68 [?? ?? ?? ??] 57</Target>
+        </PatchString>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchString>
+          <Section>.text</Section>
+          <Target>48 8B 5C 24 68 48 8D 15 [?? ?? ?? ??] 48 8B CB</Target>
+        </PatchString>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="6">
+    <!-- Text 1 (Copyright) Properties (Y Position, Color, Font Size) -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>C7 45 F8 [?? ?? 00 00] 89 45 E8 C7 45 DC [?? ?? ?? ??] C7 45 E4 [?? ?? 00 00]</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>C7 40 0C [?? ?? 00 00] 8B 05 ?? ?? ?? 00 48 8D 4C 24 38 C7 44 24 34 [?? ?? ?? ??] C7 44 24 40 [?? ?? 00 00]</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="7">
+    <!-- Text 2 (Startup) Y Position -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>8D 45 F8 50 6A 00 8D 45 E4 50 8D 45 F0 50 C7 45 F4 [?? ?? 00 00] E8 ?? ?? ?? ?? 85 C0 7C 11 8B 45 F8</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>C7 84 24 EC 00 00 00 [?? ?? 00 00] 89 5C 24 44</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="8">
+    <!-- Text 2 (Startup) Color -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchAddFunction>
+          <Section>.text</Section>
+          <Target>83 21 00 83 4B 1C FF</Target>
+          <Call>E8 [FF FF FF FF] 90 90</Call>
+          <Function>83 21 00 C7 43 1C [FF FF FF FF] C3</Function>
+        </PatchAddFunction>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchAddFunction>
+          <Section>.text</Section>
+          <Target>83 21 00 83 4F 24 FF</Target>
+          <Call>E8 [FF FF FF FF] 90 90</Call>
+          <Function>83 21 00 C7 47 24 [FF FF FF FF] C3</Function>
+        </PatchAddFunction>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="9">
+    <!-- Text 2 (Startup) Font Size -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>C7 43 24 [?? ?? 00 00] 8D 45 EC</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchDwords>
+          <Section>.text</Section>
+          <Target>C7 47 30 [?? ?? 00 00] 83 21 00</Target>
+        </PatchDwords>
+      </Version>
+    </Platform>
+  </Entry>
+  <Entry id="10">
+    <!-- Background Image -->
+    <Platform type="I386">
+      <Version min="7 RTM">
+        <PatchAddFunction>
+          <Section>.text</Section>
+          <Target>A1 ?? ?? ?? 00 8B 08 85 C9 74 0E</Target>
+          <Call>E8 [FF FF FF FF] 85 C0 7C 10 EB 27</Call>
+          <Function>8B FF 55 8B EC 83 EC 14 33 C0 33 C9 83 65 FC 00 8D 55 FC 52 8D 55 F4 52 6A 00 8D 55 F8 52 6A 0A C7 45 F8 01 00 00 00 E8 {00 00 00 00} 85 C0 7C 15 83 65 EC 00 83 65 F0 00 8D 45 EC 8B 4D FC 50 51 E8 {00 00 00 00} C9 C3</Function>
+		  <FuncNames>
+			<Name>ResFindDataEntryFromImage</Name>
+			<Name>BgpGxDrawBitmapImage</Name>
+		  </FuncNames>
+        </PatchAddFunction>
+      </Version>
+    </Platform>
+    <Platform type="AMD64">
+      <Version min="7 RTM">
+        <PatchAddFunction>
+          <Section>.text</Section>
+          <Target>48 8B 05 ?? ?? ?? 00 48 39 18 74 4E 48 8B 08</Target>
+          <Call>E8 [FF FF FF FF] 85 C0 7C 51 E9 DB 00 00 00 90</Call>
+          <Function>55 48 89 E5 48 83 EC 50 31 C9 31 D2 41 B8 0A 00 00 00 4C 8D 4D E8 48 C7 45 E8 01 00 00 00 48 83 65 D0 00 48 8D 45 F0 48 89 45 D8 48 83 65 F8 00 48 8D 45 F8 48 89 45 E0 E8 {00 00 00 00} 85 C0 78 3F 48 8B 4D F8 48 8D 55 D0 48 83 65 D0 00 41 B0 01 E8 {00 00 00 00} 85 C0 78 26 48 8B 4D D0 48 83 65 D8 00 48 83 65 E0 00 48 8D 55 D8 E8 {00 00 00 00} 48 8B 4D D0 48 89 C7 E8 {00 00 00 00} 48 89 F8 48 89 EC 5D C3</Function>
+		  <FuncNames>
+			<Name>ResFindDataEntryFromImage</Name>
+			<Name>BgpGxParseBitmap</Name>
+			<Name>BgpGxDrawRectangle</Name>
+			<Name>BgpGxRectangleDestroy</Name>
+		  </FuncNames>
+        </PatchAddFunction>
+	  </Version>
+    </Platform>
+  </Entry>
+  <!-- <Entry id="11"> bootres path, only in winresume -->
+</Patch>

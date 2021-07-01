@@ -1,0 +1,1 @@
+The ntdll.lib file here is specifically for x86. It is pulled from the DDK. The 64-bit one can be ripped from the DDK as well (without installing).
